@@ -1,0 +1,428 @@
+{
+  "groups": [
+    {
+      "name": "Post (DTE)",
+      "tags": [
+        { "title": "Post Title", "slug": "dynatafo-post-title", "field_type": "Text", "note": "Outputs the title of the current post, page, or template." },
+        { "title": "Post Date", "slug": "dynatafo-post-date", "field_type": "Text/Date", "note": "Outputs the publication date of the current post. Supports standard and custom date formats (e.g. F j, Y)." },
+        { "title": "Post Time", "slug": "dynatafo-post-time", "field_type": "Text/Date", "note": "Outputs the publication time of the current post. Supports standard and custom time formats (e.g. g:i a)." },
+        { "title": "Post ID", "slug": "dynatafo-post-id", "field_type": "Number/Text", "note": "Outputs the unique numeric database ID of the current post, page, or template." },
+        { "title": "Page Title", "slug": "dynatafo-page-title", "field_type": "Text", "note": "Outputs the title of the current page/document. Ideal for general-purpose layouts." },
+        { "title": "Post Excerpt", "slug": "dynatafo-post-excerpt", "field_type": "Text", "note": "Outputs the custom excerpt of the current post. Falls back to post content if the excerpt is empty." },
+        { "title": "Post Custom Field", "slug": "dynatafo-post-custom-field", "field_type": "Text/URL/Number", "note": "Retrieves the value of a post meta key. Useful for displaying custom database fields." },
+        { "title": "Post Terms", "slug": "dynatafo-post-terms", "field_type": "Text", "note": "Lists all terms assigned to the post from a selected taxonomy (e.g. Categories, Tags, custom taxonomies) with custom separators." },
+        { "title": "Post Featured Image", "slug": "dynatafo-post-featured-image", "field_type": "Image", "note": "Retrieves the featured image object, compatible with Elementor's image and background controls." },
+        { "title": "Post Gallery", "slug": "dynatafo-post-gallery", "field_type": "Gallery", "note": "Pulls image attachments or gallery field IDs from the post, compatible with Elementor's gallery widgets." },
+        { "title": "Post URL", "slug": "dynatafo-post-url", "field_type": "URL", "note": "Outputs the absolute permalink URL of the current post or page." },
+        { "title": "Post Thumbnail URL", "slug": "dynatafo-post-thumbnail-url", "field_type": "URL/Image", "note": "Outputs the direct URL of the post's featured image." },
+        { "title": "Post Categories List", "slug": "dynatafo-post-categories", "field_type": "Text", "note": "Displays a list of categories assigned to the post, with optional links." },
+        { "title": "Post Tags List", "slug": "dynatafo-post-tags", "field_type": "Text", "note": "Displays a list of tags assigned to the post, with optional links." },
+        { "title": "Post Modified Date", "slug": "dynatafo-post-modified-date", "field_type": "Text", "note": "Outputs the date when the post was last modified. Supports custom formatting." },
+        { "title": "Post Comment Count", "slug": "dynatafo-post-comment-count", "field_type": "Number/Text", "note": "Outputs the total number of approved comments on the post." },
+        { "title": "Query String Parameter", "slug": "dynatafo-query-param", "field_type": "Text", "note": "Retrieves a specific GET parameter from the URL query string. Example: ?ref=xxx retrieves xxx." },
+        { "title": "Post Content", "slug": "dynatafo-post-content", "field_type": "Text", "note": "Retrieves the main post content. Useful for displaying classic editor text blocks." },
+        { "title": "Post Parent", "slug": "dynatafo-post-parent", "field_type": "Text", "note": "Returns parent post ID, title, or link. Returns 'no parent' if the post type is hierarchical but has no parent." },
+        { "title": "Post Status", "slug": "dynatafo-post-status", "field_type": "Text", "note": "Outputs the current post status (e.g. publish, draft, private)." },
+        { "title": "Post Type", "slug": "dynatafo-post-type", "field_type": "Text", "note": "Outputs the name of the post type. Supports singular, plural, and raw labels." },
+        { "title": "Are Comments Allowed", "slug": "dynatafo-are-comments-allowed", "field_type": "Text", "note": "Returns 1 if comments are open for the current post, otherwise returns 0." },
+        { "title": "Is 404", "slug": "dynatafo-is-404", "field_type": "Text", "note": "Returns 1 if the current page is a 404 error page, otherwise returns 0." },
+        { "title": "Is Home", "slug": "dynatafo-is-home", "field_type": "Text", "note": "Returns 1 if the current page is the blog posts index, otherwise returns 0." },
+        { "title": "Is Front Page", "slug": "dynatafo-is-frontpage", "field_type": "Text", "note": "Returns 1 if the current page is the static front page, otherwise returns 0." },
+        { "title": "Is Singular", "slug": "dynatafo-is-singular", "field_type": "Text", "note": "Returns 1 if the current view is any single post, page, or custom post type, otherwise returns 0." },
+        { "title": "Is Feed", "slug": "dynatafo-is-feed", "field_type": "Text", "note": "Returns 1 if the current request is for a feed (e.g., RSS feed), otherwise returns 0." },
+        { "title": "Is Current User Author Of Post", "slug": "dynatafo-is-author-of-post", "field_type": "Text", "note": "Returns 1 if the logged-in visitor is the author of the current post, otherwise returns 0." },
+        { "title": "Is Post In Category", "slug": "dynatafo-is-post-in-category", "field_type": "Text", "note": "Returns 1 if the current post is in the selected category/categories, otherwise returns 0." },
+        { "title": "Is Post In List", "slug": "dynatafo-is-post-in-list", "field_type": "Text", "note": "Returns 1 if the current post ID is present in the specified comma-separated list of IDs, otherwise 0." },
+        { "title": "Number Posts Query", "slug": "dynatafo-number-posts-query", "field_type": "Number/Text", "note": "Counts and returns the number of posts matching a custom query configuration." }
+      ]
+    },
+    {
+      "name": "Archive (DTE)",
+      "tags": [
+        { "title": "Archive Title", "slug": "dynatafo-archive-title", "field_type": "Text", "note": "Outputs the title of the current category, tag, taxonomy, or author archive page." },
+        { "title": "Archive Description", "slug": "dynatafo-archive-description", "field_type": "Text", "note": "Outputs the description text of the current archive term or category." },
+        { "title": "Archive Meta", "slug": "dynatafo-archive-meta", "field_type": "Text", "note": "Retrieves custom term metadata associated with the current archive term by key." },
+        { "title": "Archive URL", "slug": "dynatafo-archive-url", "field_type": "URL", "note": "Outputs the absolute permalink URL of the current archive page." }
+      ]
+    },
+    {
+      "name": "Site (DTE)",
+      "tags": [
+        { "title": "Site Title", "slug": "dynatafo-site-title", "field_type": "Text", "note": "Outputs the global site title configured in WordPress General Settings." },
+        { "title": "Site Tagline", "slug": "dynatafo-site-tagline", "field_type": "Text", "note": "Outputs the site tagline/description configured in WordPress General Settings." },
+        { "title": "Site URL", "slug": "dynatafo-site-url", "field_type": "URL", "note": "Outputs the absolute home page URL of the site, useful for custom button links." },
+        { "title": "Internal URL", "slug": "dynatafo-internal-url", "field_type": "URL", "note": "Generates a link URL for any selected post, page, taxonomy term, attachment, or author." },
+        { "title": "Shortcode", "slug": "dynatafo-shortcode-url", "field_type": "Text/URL/Number", "note": "Executes a shortcode and outputs the returned string or value. Useful for custom dynamic functions." },
+        { "title": "Current Date Time", "slug": "dynatafo-current-date-time", "field_type": "Text/Date", "note": "Outputs the current date and time on the server. Supports custom formatting." },
+        { "title": "Current URL", "slug": "dynatafo-current-url", "field_type": "URL/Text", "note": "Outputs the absolute request URL of the page currently being viewed." },
+        { "title": "Current Language", "slug": "dynatafo-current-language", "field_type": "Text", "note": "Outputs the active locale or language code (e.g., en, es, de) for multi-lingual configurations." },
+        { "title": "Current User Can", "slug": "dynatafo-current-user-can", "field_type": "Text", "note": "Checks if the logged-in user has a specific permission/capability. Returns 1 if true, 0 if false." },
+        { "title": "Request Parameter", "slug": "dynatafo-request-parameter", "field_type": "Text", "note": "Retrieves a parameter from URL (GET), form data (POST), or custom query variables. Example Key: utm_source." },
+        { "title": "Cookies", "slug": "dynatafo-cookies", "field_type": "Text", "note": "Reads a browser cookie value by name. Supports wildcard matching (e.g. wordpress_logged_in_*)." },
+        { "title": "Session", "slug": "dynatafo-session", "field_type": "Text", "note": "Reads a PHP session value by key from $_SESSION. Requires active PHP sessions." },
+        { "title": "Server Variables", "slug": "dynatafo-server-vars", "field_type": "Text", "note": "Retrieves value from the PHP $_SERVER array by key. Example: HTTP_USER_AGENT, REMOTE_ADDR." },
+        { "title": "Widget Content", "slug": "dynatafo-widget-content", "field_type": "Text", "note": "Renders the exact HTML content of a specific Elementor widget from any page by Post ID and Widget ID." }
+      ]
+    },
+    {
+      "name": "Media (DTE)",
+      "tags": [
+        { "title": "Featured Image", "slug": "dynatafo-featured-image", "field_type": "Image", "note": "Retrieves the post's featured image object, compatible with Elementor image tags." },
+        { "title": "Featured Image Data", "slug": "dynatafo-featured-image-data", "field_type": "Text/URL", "note": "Retrieves metadata of the featured image (alt text, caption, description, title, or file URL)." },
+        { "title": "Site Logo", "slug": "dynatafo-site-logo", "field_type": "Image", "note": "Retrieves the custom site logo image object uploaded via Theme Customizer." },
+        { "title": "Site Icon", "slug": "dynatafo-site-icon", "field_type": "Image", "note": "Retrieves the site icon (favicon) image object uploaded via Theme Customizer." }
+      ]
+    },
+    {
+      "name": "Actions (DTE)",
+      "tags": [
+        { "title": "Contact URL", "slug": "dynatafo-contact-url", "field_type": "URL", "note": "Creates custom contact links (email, phone, SMS, WhatsApp, Messenger, Viber, Waze, Skype, or Calendar links)." },
+        { "title": "Reload Page", "slug": "dynatafo-reload-page-url", "field_type": "URL", "note": "Generates an action link that reloads the current page when clicked." },
+        { "title": "Lightbox", "slug": "dynatafo-lightbox-url", "field_type": "URL", "note": "Generates an action link that opens a specific image, video, or external URL in a popup lightbox." },
+        { "title": "Off-Canvas", "slug": "dynatafo-off-canvas-url", "field_type": "URL", "note": "Generates an action link to open/close an off-canvas drawer or menu widget." }
+      ]
+    },
+    {
+      "name": "Author (DTE)",
+      "tags": [
+        { "title": "Author Name", "slug": "dynatafo-author-name", "field_type": "Text", "note": "Outputs the display name of the current post's author." },
+        { "title": "Author Info", "slug": "dynatafo-author-info", "field_type": "Text/URL", "note": "Retrieves profile information of the post's author (bio, email, website, first name, last name, etc.)." },
+        { "title": "Author Meta", "slug": "dynatafo-author-meta", "field_type": "Text/URL/Number", "note": "Retrieves custom user meta data for the post's author by key." },
+        { "title": "Author Profile Picture", "slug": "dynatafo-author-profile-picture", "field_type": "Image/URL", "note": "Outputs the profile picture (avatar) image object or URL for the post's author." },
+        { "title": "Author URL", "slug": "dynatafo-author-url", "field_type": "URL", "note": "Outputs the archive URL of the post's author." },
+        { "title": "User Info", "slug": "dynatafo-user-info", "field_type": "Text/URL", "note": "Retrieves profile details of the currently logged-in user (email, display name, bio, etc.)." },
+        { "title": "User Profile Picture", "slug": "dynatafo-user-profile-picture", "field_type": "Image/URL", "note": "Outputs the profile avatar image object or URL of the currently logged-in user." },
+        { "title": "User/Author Image URL", "slug": "dynatafo-user-author-image-url", "field_type": "URL/Text", "note": "Retrieves the avatar URL for a specified user or post author." },
+        { "title": "User Role", "slug": "dynatafo-user-role", "field_type": "Text", "note": "Outputs the role(s) (e.g. Administrator, Editor) of the currently logged-in user." },
+        { "title": "Current User ID", "slug": "dynatafo-current-user-id", "field_type": "Number/Text", "note": "Outputs the numeric database ID of the currently logged-in user." },
+        { "title": "Current User Display Name", "slug": "dynatafo-current-user-display-name", "field_type": "Text", "note": "Outputs the display name of the currently logged-in user." },
+        { "title": "Current User Email", "slug": "dynatafo-current-user-email", "field_type": "Text", "note": "Outputs the email address of the currently logged-in user." },
+        { "title": "Current User Registration Date", "slug": "dynatafo-current-user-reg-date", "field_type": "Text", "note": "Outputs the registration date of the currently logged-in user." }
+      ]
+    },
+    {
+      "name": "Comments (DTE)",
+      "tags": [
+        { "title": "Comments URL", "slug": "dynatafo-comments-url", "field_type": "URL", "note": "Outputs the direct link URL to the comments section of the current post." },
+        { "title": "Comments Number", "slug": "dynatafo-comments-number", "field_type": "Number/Text", "note": "Outputs the total number of approved comments on the current post." }
+      ]
+    },
+    {
+      "name": "Taxonomy (DTE)",
+      "tags": [
+        { "title": "Current Term Name", "slug": "dynatafo-current-term-name", "field_type": "Text", "note": "Outputs the name of the category or tag term currently being viewed on an archive page." },
+        { "title": "Current Term Description", "slug": "dynatafo-current-term-description", "field_type": "Text", "note": "Outputs the description text of the category or tag term currently being viewed." },
+        { "title": "Current Term Image", "slug": "dynatafo-current-term-image", "field_type": "Image", "note": "Outputs the image object of the current term from taxonomy metadata (e.g. category image)." }
+      ]
+    },
+    {
+      "name": "ACF (DTE)",
+      "tags": [
+        { "title": "ACF Field", "slug": "dynatafo-acf-field", "field_type": "Text/URL/Number/Image", "note": "Reads a generic ACF field value by name. Compatible with simple text, select, or number fields." },
+        { "title": "ACF Repeater", "slug": "dynatafo-acf-repeater", "field_type": "Text/URL/Image", "note": "Allows loop-based rendering or custom extraction of ACF repeater fields." },
+        { "title": "ACF Gallery First Image", "slug": "dynatafo-acf-gallery-first", "field_type": "Image", "note": "Extracts and returns only the first image from an ACF gallery field." },
+        { "title": "ACF Relationship First Post Title", "slug": "dynatafo-acf-relationship-first-title", "field_type": "Text", "note": "Retrieves the title of the first related post selected in an ACF relationship field." },
+        { "title": "ACF Taxonomy Term Name", "slug": "dynatafo-acf-taxonomy-term", "field_type": "Text", "note": "Returns the term name selected in an ACF taxonomy field." },
+        { "title": "ACF Date Picker Formatted", "slug": "dynatafo-acf-date-formatted", "field_type": "Text", "note": "Retrieves an ACF date picker value and outputs it in a custom format." },
+        { "title": "ACF True/False", "slug": "dynatafo-acf-true-false", "field_type": "Text", "note": "Evaluates an ACF True/False field and outputs customizable text for each state." },
+        { "title": "ACF Choice", "slug": "dynatafo-acf-choice", "field_type": "Text", "note": "Retrieves the value or label of a selected choice from an ACF select, checkbox, or radio field." },
+        { "title": "ACF File", "slug": "dynatafo-acf-file", "field_type": "URL/Text", "note": "Retrieves an ACF file field value as a URL, title, description, or file size." },
+        { "title": "ACF Link URL", "slug": "dynatafo-acf-link-url", "field_type": "URL", "note": "Extracts and returns only the URL from an ACF link field." },
+        { "title": "ACF Link Text", "slug": "dynatafo-acf-link-text", "field_type": "Text", "note": "Extracts and returns only the link text/label from an ACF link field." },
+        { "title": "ACF Image Data", "slug": "dynatafo-acf-image-data", "field_type": "URL/Text/Number", "note": "Retrieves specific properties (URL, Alt text, Title, Width, Height) of an ACF image field." },
+        { "title": "ACF Link Attribute", "slug": "dynatafo-acf-link-attribute", "field_type": "Text/URL", "note": "Extracts target link attributes (e.g., target='_blank') from an ACF link field." }
+      ]
+    },
+    {
+      "name": "WooCommerce (DTE)",
+      "tags": [
+        { "title": "WooCommerce Is Featured Product", "slug": "dynatafo-woocommerce-is-featured", "field_type": "Text", "note": "Returns 1 if the product is featured in WooCommerce, otherwise returns 0." },
+        { "title": "Product Price", "slug": "dynatafo-woo-product-price", "field_type": "Text", "note": "Outputs the current active price of the product (formatted regular price or sale price)." },
+        { "title": "Product Sale Price", "slug": "dynatafo-woo-sale-price", "field_type": "Text", "note": "Outputs the sale price of the product if it is currently discounted." },
+        { "title": "Product SKU", "slug": "dynatafo-woo-sku", "field_type": "Text", "note": "Outputs the stock-keeping unit (SKU) code of the current product." },
+        { "title": "Product Stock Status", "slug": "dynatafo-woo-stock-status", "field_type": "Text", "note": "Outputs the stock status of the product (e.g. In stock, Out of stock) and optional quantity." },
+        { "title": "Product Categories", "slug": "dynatafo-woo-product-categories", "field_type": "Text", "note": "Displays a comma-separated list of product categories assigned to the product." },
+        { "title": "Product Rating", "slug": "dynatafo-woo-rating", "field_type": "Text/Number", "note": "Outputs the average star rating value of the current product." },
+        { "title": "Product Add To Cart URL", "slug": "dynatafo-woo-add-to-cart-url", "field_type": "URL", "note": "Outputs the direct Add-To-Cart URL query string for the current product." }
+      ]
+    },
+    {
+      "name": "SCF (DTE)",
+      "tags": [
+        { "title": "SCF Field", "slug": "dynatafo-scf-field", "field_type": "Text/URL/Number/Image", "note": "Reads a generic SCF field value by name. Compatible with simple text, select, or number fields." },
+        { "title": "SCF Repeater", "slug": "dynatafo-scf-repeater", "field_type": "Text/URL/Image", "note": "Allows loop-based rendering or custom extraction of SCF repeater fields." },
+        { "title": "SCF Gallery First Image", "slug": "dynatafo-scf-gallery-first", "field_type": "Image", "note": "Extracts and returns only the first image from an SCF gallery field." },
+        { "title": "SCF Relationship First Post Title", "slug": "dynatafo-scf-relationship-first-title", "field_type": "Text", "note": "Retrieves the title of the first related post selected in an SCF relationship field." },
+        { "title": "SCF Taxonomy Term Name", "slug": "dynatafo-scf-taxonomy-term", "field_type": "Text", "note": "Returns the term name selected in an SCF taxonomy field." },
+        { "title": "SCF Date Picker Formatted", "slug": "dynatafo-scf-date-formatted", "field_type": "Text", "note": "Retrieves an SCF date picker value and outputs it in a custom format." },
+        { "title": "SCF True/False", "slug": "dynatafo-scf-true-false", "field_type": "Text", "note": "Evaluates an SCF True/False field and outputs customizable text for each state." },
+        { "title": "SCF Choice", "slug": "dynatafo-scf-choice", "field_type": "Text", "note": "Retrieves the value or label of a selected choice from an SCF select, checkbox, or radio field." },
+        { "title": "SCF File", "slug": "dynatafo-scf-file", "field_type": "URL/Text", "note": "Retrieves an SCF file field value as a URL, title, description, or file size." },
+        { "title": "SCF Link URL", "slug": "dynatafo-scf-link-url", "field_type": "URL", "note": "Extracts and returns only the URL from an SCF link field." },
+        { "title": "SCF Link Text", "slug": "dynatafo-scf-link-text", "field_type": "Text", "note": "Extracts and returns only the link text/label from an SCF link field." },
+        { "title": "SCF Image Data", "slug": "dynatafo-scf-image-data", "field_type": "URL/Text/Number", "note": "Retrieves specific properties (URL, Alt text, Title, Width, Height) of an SCF image field." },
+        { "title": "SCF Link Attribute", "slug": "dynatafo-scf-link-attribute", "field_type": "Text/URL", "note": "Extracts target link attributes (e.g., target='_blank') from an SCF link field." }
+      ]
+    },
+    {
+      "name": "WooCommerce Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "WooCommerce Cross-Sell Product IDs", "slug": "dynatafo-woo-cross-sell-ids", "field_type": "Text", "note": "Outputs a list of WooCommerce cross-sell product IDs assigned to the current product.", "pro": true },
+        { "title": "WooCommerce Date Created", "slug": "dynatafo-woo-date-created", "field_type": "Date", "note": "Outputs the date when the product was created.", "pro": true },
+        { "title": "WooCommerce Date Modified", "slug": "dynatafo-woo-date-modified", "field_type": "Date", "note": "Outputs the date when the product was last modified.", "pro": true },
+        { "title": "WooCommerce Gallery Images", "slug": "dynatafo-woo-gallery-images", "field_type": "Gallery", "note": "Retrieves all gallery image objects associated with the product.", "pro": true },
+        { "title": "WooCommerce Global Unique ID", "slug": "dynatafo-woo-global-unique-id", "field_type": "Text", "note": "Outputs the global unique product identifier (e.g., GTIN, EAN, UPC, ISBN).", "pro": true },
+        { "title": "WooCommerce In Stock", "slug": "dynatafo-woo-in-stock", "field_type": "Text", "note": "Returns 1 if the product is currently in stock, otherwise returns 0.", "pro": true },
+        { "title": "WooCommerce Is Downloadable", "slug": "dynatafo-woo-is-downloadable", "field_type": "Text", "note": "Returns 1 if the product is marked as a downloadable product, otherwise returns 0.", "pro": true },
+        { "title": "WooCommerce Is Virtual", "slug": "dynatafo-woo-is-virtual", "field_type": "Text", "note": "Returns 1 if the product is marked as a virtual product, otherwise returns 0.", "pro": true },
+        { "title": "WooCommerce Menu Order", "slug": "dynatafo-woo-menu-order", "field_type": "Number", "note": "Outputs the custom menu order number defined for the product.", "pro": true },
+        { "title": "WooCommerce On Sale", "slug": "dynatafo-woo-on-sale", "field_type": "Text", "note": "Returns 1 if the product is on sale, otherwise returns 0.", "pro": true },
+        { "title": "WooCommerce Parent Product ID", "slug": "dynatafo-woo-parent-id", "field_type": "Number", "note": "Outputs the ID of the parent product (for variations or sub-products).", "pro": true },
+        { "title": "WooCommerce Product Attributes", "slug": "dynatafo-woo-attributes", "field_type": "Text", "note": "Displays attributes (size, color, weight) associated with the current product.", "pro": true },
+        { "title": "WooCommerce Product Brands", "slug": "dynatafo-woo-brands", "field_type": "Text", "note": "Displays the brand names assigned to the product.", "pro": true },
+        { "title": "WooCommerce Product Description", "slug": "dynatafo-woo-description", "field_type": "Text", "note": "Outputs the full description text of the product.", "pro": true },
+        { "title": "WooCommerce Product Dimensions", "slug": "dynatafo-woo-dimensions", "field_type": "Text", "note": "Outputs the dimensions (Length, Width, Height) formatted according to store settings.", "pro": true },
+        { "title": "WooCommerce Product ID", "slug": "dynatafo-woo-product-id", "field_type": "Number", "note": "Outputs the database post ID of the product.", "pro": true },
+        { "title": "WooCommerce Product Price HTML", "slug": "dynatafo-woo-price-html", "field_type": "HTML", "note": "Outputs the formatted HTML price string including currency symbols and sale layouts.", "pro": true },
+        { "title": "WooCommerce Product Regular Price", "slug": "dynatafo-woo-regular-price", "field_type": "Number", "note": "Outputs the regular product price value (raw number without currency symbols).", "pro": true },
+        { "title": "WooCommerce Product Short Description", "slug": "dynatafo-woo-short-description", "field_type": "Text", "note": "Outputs the short description (excerpt) of the product.", "pro": true },
+        { "title": "WooCommerce Product Status", "slug": "dynatafo-woo-status", "field_type": "Text", "note": "Outputs the WooCommerce product catalog visibility status.", "pro": true },
+        { "title": "WooCommerce Product Tags", "slug": "dynatafo-woo-tags", "field_type": "Text", "note": "Displays a list of tags assigned to the product, with optional links.", "pro": true },
+        { "title": "WooCommerce Product Title", "slug": "dynatafo-woo-title", "field_type": "Text", "note": "Outputs the title of the product.", "pro": true },
+        { "title": "WooCommerce Product Type", "slug": "dynatafo-woo-type", "field_type": "Text", "note": "Outputs the WooCommerce product type (e.g., simple, variable, grouped, external).", "pro": true },
+        { "title": "WooCommerce Product Weight", "slug": "dynatafo-woo-weight", "field_type": "Text", "note": "Outputs the weight of the product formatted according to store settings.", "pro": true },
+        { "title": "WooCommerce Purchase Note", "slug": "dynatafo-woo-purchase-note", "field_type": "Text", "note": "Outputs the purchase note displayed to customers after checking out.", "pro": true },
+        { "title": "WooCommerce Rating Distribution", "slug": "dynatafo-woo-rating-dist", "field_type": "Text", "note": "Outputs the review rating distribution (star ratings count breakdown).", "pro": true },
+        { "title": "WooCommerce Review Count", "slug": "dynatafo-woo-review-count", "field_type": "Number", "note": "Outputs the total count of reviews for the product.", "pro": true },
+        { "title": "WooCommerce Sale Date From", "slug": "dynatafo-woo-sale-from", "field_type": "Date", "note": "Outputs the date from which the sale price is active.", "pro": true },
+        { "title": "WooCommerce Sale Date To", "slug": "dynatafo-woo-sale-to", "field_type": "Date", "note": "Outputs the date until which the sale price is active.", "pro": true },
+        { "title": "WooCommerce Shipping Class", "slug": "dynatafo-woo-shipping-class", "field_type": "Text", "note": "Outputs the shipping class slug or name assigned to the product.", "pro": true },
+        { "title": "WooCommerce Stock Quantity", "slug": "dynatafo-woo-stock-quantity", "field_type": "Number", "note": "Outputs the exact available quantity of stock for the product.", "pro": true },
+        { "title": "WooCommerce Tax Status", "slug": "dynatafo-woo-tax-status", "field_type": "Text", "note": "Outputs the tax status of the product (taxable, shipping only, or none).", "pro": true },
+        { "title": "WooCommerce Total Sales", "slug": "dynatafo-woo-total-sales", "field_type": "Number", "note": "Outputs the total number of items sold for the product.", "pro": true },
+        { "title": "WooCommerce Upsell Product IDs", "slug": "dynatafo-woo-upsell-ids", "field_type": "Text", "note": "Outputs a list of WooCommerce upsell product IDs assigned to the current product.", "pro": true }
+      ]
+    },
+    {
+      "name": "ACF Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "ACF Color", "slug": "dynatafo-acf-color", "field_type": "Text", "note": "Retrieves the color hex/rgba value from an ACF color picker field.", "pro": true },
+        { "title": "ACF DateTime Formatted", "slug": "dynatafo-acf-datetime-formatted", "field_type": "Date/Time", "note": "Retrieves the date and time from ACF and outputs it in a custom format.", "pro": true },
+        { "title": "ACF Flex Count", "slug": "dynatafo-acf-flex-count", "field_type": "Number", "note": "Outputs the total number of layout sections defined in an ACF flexible content field.", "pro": true },
+        { "title": "ACF Flex Layouts", "slug": "dynatafo-acf-flex-layouts", "field_type": "Text", "note": "Lists the active flexible content layouts saved for the post.", "pro": true },
+        { "title": "ACF Gallery All", "slug": "dynatafo-acf-gallery-all", "field_type": "Gallery", "note": "Retrieves all gallery image objects from an ACF gallery field, compatible with Elementor's gallery.", "pro": true },
+        { "title": "ACF Gallery Count", "slug": "dynatafo-acf-gallery-count", "field_type": "Number", "note": "Outputs the total number of images uploaded in an ACF gallery field.", "pro": true },
+        { "title": "ACF Group Sub", "slug": "dynatafo-acf-group-sub", "field_type": "Text", "note": "Retrieves a specific subfield value nested inside an ACF group field.", "pro": true },
+        { "title": "ACF Icon Picker", "slug": "dynatafo-acf-icon-picker", "field_type": "Text", "note": "Retrieves the icon name/class from an ACF icon picker field.", "pro": true },
+        { "title": "ACF Map Address", "slug": "dynatafo-acf-map-address", "field_type": "Text", "note": "Outputs the full formatted address string from an ACF Google Map field.", "pro": true },
+        { "title": "ACF Map Latitude", "slug": "dynatafo-acf-map-lat", "field_type": "Number", "note": "Outputs the latitude coordinate from an ACF Google Map field.", "pro": true },
+        { "title": "ACF Map Longitude", "slug": "dynatafo-acf-map-lng", "field_type": "Number", "note": "Outputs the longitude coordinate from an ACF Google Map field.", "pro": true },
+        { "title": "ACF Options Field", "slug": "dynatafo-acf-options-field", "field_type": "Text", "note": "Retrieves the value of a global field registered on an ACF Options page.", "pro": true },
+        { "title": "ACF Page Link", "slug": "dynatafo-acf-page-link", "field_type": "URL", "note": "Retrieves the absolute URL value from an ACF page link field.", "pro": true },
+        { "title": "ACF Post Object ID", "slug": "dynatafo-acf-post-obj-id", "field_type": "Number", "note": "Retrieves the ID from an ACF post object field.", "pro": true },
+        { "title": "ACF Post Object Thumbnail", "slug": "dynatafo-acf-post-obj-thumb", "field_type": "Image", "note": "Retrieves the featured image of the post selected in an ACF post object field.", "pro": true },
+        { "title": "ACF Post Object URL", "slug": "dynatafo-acf-post-obj-url", "field_type": "URL", "note": "Retrieves the permalink URL of the post selected in an ACF post object field.", "pro": true },
+        { "title": "ACF Relationship All Titles", "slug": "dynatafo-acf-rel-all-titles", "field_type": "Text", "note": "Displays a comma-separated list of post titles selected in an ACF relationship field.", "pro": true },
+        { "title": "ACF Relationship Count", "slug": "dynatafo-acf-rel-count", "field_type": "Number", "note": "Outputs the total number of posts selected in an ACF relationship field.", "pro": true },
+        { "title": "ACF Relationship ID", "slug": "dynatafo-acf-rel-id", "field_type": "Number", "note": "Retrieves the ID of the first post selected in an ACF relationship field.", "pro": true },
+        { "title": "ACF Relationship URL", "slug": "dynatafo-acf-rel-url", "field_type": "URL", "note": "Retrieves the permalink URL of the first post selected in an ACF relationship field.", "pro": true },
+        { "title": "ACF Repeater Count", "slug": "dynatafo-acf-rep-count", "field_type": "Number", "note": "Outputs the total number of rows populated in an ACF repeater field.", "pro": true },
+        { "title": "ACF Taxonomy Count", "slug": "dynatafo-acf-tax-count", "field_type": "Number", "note": "Outputs the total number of terms selected in an ACF taxonomy field.", "pro": true },
+        { "title": "ACF Taxonomy ID", "slug": "dynatafo-acf-tax-id", "field_type": "Number", "note": "Retrieves the term ID of the first term selected in an ACF taxonomy field.", "pro": true },
+        { "title": "ACF Taxonomy Slug", "slug": "dynatafo-acf-tax-slug", "field_type": "Text", "note": "Retrieves the term slug of the first term selected in an ACF taxonomy field.", "pro": true },
+        { "title": "ACF Taxonomy URL", "slug": "dynatafo-acf-tax-url", "field_type": "URL", "note": "Retrieves the term archive URL of the first term selected in an ACF taxonomy field.", "pro": true },
+        { "title": "ACF Term Meta", "slug": "dynatafo-acf-term-meta", "field_type": "Text", "note": "Retrieves term metadata from taxonomies using custom keys.", "pro": true },
+        { "title": "ACF Time", "slug": "dynatafo-acf-time", "field_type": "Time", "note": "Retrieves a time value from ACF and outputs it formatted.", "pro": true },
+        { "title": "ACF User Avatar", "slug": "dynatafo-acf-user-avatar", "field_type": "Image", "note": "Retrieves the avatar image object of the user selected in an ACF user field.", "pro": true },
+        { "title": "ACF User Email", "slug": "dynatafo-acf-user-email", "field_type": "Text", "note": "Retrieves the email address of the user selected in an ACF user field.", "pro": true },
+        { "title": "ACF User ID", "slug": "dynatafo-acf-user-id", "field_type": "Number", "note": "Retrieves the database user ID of the user selected in an ACF user field.", "pro": true },
+        { "title": "ACF User Meta", "slug": "dynatafo-acf-user-meta", "field_type": "Text", "note": "Retrieves custom user meta data for the user selected in an ACF user field.", "pro": true },
+        { "title": "ACF User Name", "slug": "dynatafo-acf-user-name", "field_type": "Text", "note": "Retrieves the display name of the user selected in an ACF user field.", "pro": true },
+        { "title": "ACF User URL", "slug": "dynatafo-acf-user-url", "field_type": "URL", "note": "Retrieves the profile or website URL of the user selected in an ACF user field.", "pro": true },
+        { "title": "ACF WYSIWYG", "slug": "dynatafo-acf-wysiwyg", "field_type": "HTML", "note": "Retrieves and outputs the full compiled HTML content of an ACF WYSIWYG editor field.", "pro": true }
+      ]
+    },
+    {
+      "name": "SCF Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "SCF Color", "slug": "dynatafo-scf-color", "field_type": "Text", "note": "Retrieves the color hex/rgba value from an SCF color picker field.", "pro": true },
+        { "title": "SCF DateTime Formatted", "slug": "dynatafo-scf-datetime-formatted", "field_type": "Date/Time", "note": "Retrieves the date and time from SCF and outputs it in a custom format.", "pro": true },
+        { "title": "SCF Flex Count", "slug": "dynatafo-scf-flex-count", "field_type": "Number", "note": "Outputs the total number of layout sections defined in an SCF flexible content field.", "pro": true },
+        { "title": "SCF Flex Layouts", "slug": "dynatafo-scf-flex-layouts", "field_type": "Text", "note": "Lists the active flexible content layouts saved for the post.", "pro": true },
+        { "title": "SCF Gallery All", "slug": "dynatafo-scf-gallery-all", "field_type": "Gallery", "note": "Retrieves all gallery image objects from an SCF gallery field, compatible with Elementor's gallery.", "pro": true },
+        { "title": "SCF Gallery Count", "slug": "dynatafo-scf-gallery-count", "field_type": "Number", "note": "Outputs the total number of images uploaded in an SCF gallery field.", "pro": true },
+        { "title": "SCF Group Sub", "slug": "dynatafo-scf-group-sub", "field_type": "Text", "note": "Retrieves a specific subfield value nested inside an SCF group field.", "pro": true },
+        { "title": "SCF Icon Picker", "slug": "dynatafo-scf-icon-picker", "field_type": "Text", "note": "Retrieves the icon name/class from an SCF icon picker field.", "pro": true },
+        { "title": "SCF Map Address", "slug": "dynatafo-scf-map-address", "field_type": "Text", "note": "Outputs the full formatted address string from an SCF Google Map field.", "pro": true },
+        { "title": "SCF Map Latitude", "slug": "dynatafo-scf-map-lat", "field_type": "Number", "note": "Outputs the latitude coordinate from an SCF Google Map field.", "pro": true },
+        { "title": "SCF Map Longitude", "slug": "dynatafo-scf-map-lng", "field_type": "Number", "note": "Outputs the longitude coordinate from an SCF Google Map field.", "pro": true },
+        { "title": "SCF Options Field", "slug": "dynatafo-scf-options-field", "field_type": "Text", "note": "Retrieves the value of a global field registered on an SCF Options page.", "pro": true },
+        { "title": "SCF Page Link", "slug": "dynatafo-scf-page-link", "field_type": "URL", "note": "Retrieves the absolute URL value from an SCF page link field.", "pro": true },
+        { "title": "SCF Post Object ID", "slug": "dynatafo-scf-post-obj-id", "field_type": "Number", "note": "Retrieves the ID from an SCF post object field.", "pro": true },
+        { "title": "SCF Post Object Thumbnail", "slug": "dynatafo-scf-post-obj-thumb", "field_type": "Image", "note": "Retrieves the featured image of the post selected in an SCF post object field.", "pro": true },
+        { "title": "SCF Post Object URL", "slug": "dynatafo-scf-post-obj-url", "field_type": "URL", "note": "Retrieves the permalink URL of the post selected in an SCF post object field.", "pro": true },
+        { "title": "SCF Relationship All Titles", "slug": "dynatafo-scf-rel-all-titles", "field_type": "Text", "note": "Displays a comma-separated list of post titles selected in an SCF relationship field.", "pro": true },
+        { "title": "SCF Relationship Count", "slug": "dynatafo-scf-rel-count", "field_type": "Number", "note": "Outputs the total number of posts selected in an SCF relationship field.", "pro": true },
+        { "title": "SCF Relationship ID", "slug": "dynatafo-scf-rel-id", "field_type": "Number", "note": "Retrieves the ID of the first post selected in an SCF relationship field.", "pro": true },
+        { "title": "SCF Relationship URL", "slug": "dynatafo-scf-rel-url", "field_type": "URL", "note": "Retrieves the permalink URL of the first post selected in an SCF relationship field.", "pro": true },
+        { "title": "SCF Repeater Count", "slug": "dynatafo-scf-rep-count", "field_type": "Number", "note": "Outputs the total number of rows populated in an SCF repeater field.", "pro": true },
+        { "title": "SCF Taxonomy Count", "slug": "dynatafo-scf-tax-count", "field_type": "Number", "note": "Outputs the total number of terms selected in an SCF taxonomy field.", "pro": true },
+        { "title": "SCF Taxonomy ID", "slug": "dynatafo-scf-tax-id", "field_type": "Number", "note": "Retrieves the term ID of the first term selected in an SCF taxonomy field.", "pro": true },
+        { "title": "SCF Taxonomy Slug", "slug": "dynatafo-scf-tax-slug", "field_type": "Text", "note": "Retrieves the term slug of the first term selected in an SCF taxonomy field.", "pro": true },
+        { "title": "SCF Taxonomy URL", "slug": "dynatafo-scf-tax-url", "field_type": "URL", "note": "Retrieves the term archive URL of the first term selected in an SCF taxonomy field.", "pro": true },
+        { "title": "SCF Term Meta", "slug": "dynatafo-scf-term-meta", "field_type": "Text", "note": "Retrieves term metadata from taxonomies using custom keys.", "pro": true },
+        { "title": "SCF Time", "slug": "dynatafo-scf-time", "field_type": "Time", "note": "Retrieves a time value from SCF and outputs it formatted.", "pro": true },
+        { "title": "SCF User Avatar", "slug": "dynatafo-scf-user-avatar", "field_type": "Image", "note": "Retrieves the avatar image object of the user selected in an SCF user field.", "pro": true },
+        { "title": "SCF User Email", "slug": "dynatafo-scf-user-email", "field_type": "Text", "note": "Retrieves the email address of the user selected in an SCF user field.", "pro": true },
+        { "title": "SCF User ID", "slug": "dynatafo-scf-user-id", "field_type": "Number", "note": "Retrieves the database user ID of the user selected in an SCF user field.", "pro": true },
+        { "title": "SCF User Meta", "slug": "dynatafo-scf-user-meta", "field_type": "Text", "note": "Retrieves custom user meta data for the user selected in an SCF user field.", "pro": true },
+        { "title": "SCF User Name", "slug": "dynatafo-scf-user-name", "field_type": "Text", "note": "Retrieves the display name of the user selected in an SCF user field.", "pro": true },
+        { "title": "SCF User URL", "slug": "dynatafo-scf-user-url", "field_type": "URL", "note": "Retrieves the profile or website URL of the user selected in an SCF user field.", "pro": true },
+        { "title": "SCF WYSIWYG", "slug": "dynatafo-scf-wysiwyg", "field_type": "HTML", "note": "Retrieves and outputs the full compiled HTML content of an SCF WYSIWYG editor field.", "pro": true }
+      ]
+    },
+    {
+      "name": "Post Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "Post Reading Time", "slug": "dynatafopro-post-reading-time", "field_type": "Text", "note": "Calculates estimated reading time based on post content word count.", "pro": true },
+        { "title": "Related Posts Count", "slug": "dynatafopro-related-posts-count", "field_type": "Number", "note": "Counts the number of posts matching the current post's category or tag taxonomy.", "pro": true },
+        { "title": "Next Post Title", "slug": "dynatafopro-next-post-title", "field_type": "Text", "note": "Outputs the title of the next post in sequence.", "pro": true },
+        { "title": "Previous Post Title", "slug": "dynatafopro-prev-post-title", "field_type": "Text", "note": "Outputs the title of the previous post in sequence.", "pro": true },
+        { "title": "Next Post URL", "slug": "dynatafopro-next-post-url", "field_type": "URL", "note": "Outputs the permalink URL of the next post in sequence.", "pro": true },
+        { "title": "Previous Post URL", "slug": "dynatafopro-prev-post-url", "field_type": "URL", "note": "Outputs the permalink URL of the previous post in sequence.", "pro": true },
+        { "title": "Next Post Thumbnail URL", "slug": "dynatafopro-next-post-thumbnail-url", "field_type": "URL/Image", "note": "Outputs the featured image URL of the next post.", "pro": true },
+        { "title": "Previous Post Thumbnail URL", "slug": "dynatafopro-prev-post-thumbnail-url", "field_type": "URL/Image", "note": "Outputs the featured image URL of the previous post.", "pro": true },
+        { "title": "Post Word Count", "slug": "dynatafopro-post-word-count", "field_type": "Number", "note": "Outputs the exact word count of the current post content.", "pro": true },
+        { "title": "Post Character Count", "slug": "dynatafopro-post-char-count", "field_type": "Number", "note": "Outputs the character count of the current post content.", "pro": true },
+        { "title": "Post Revision Count", "slug": "dynatafopro-post-revision-count", "field_type": "Number", "note": "Outputs the total number of saved revisions for the current post.", "pro": true },
+        { "title": "Post Sticky Status", "slug": "dynatafopro-post-sticky-status", "field_type": "Text/Number", "note": "Checks if the post is set as sticky. Returns 1 if true, 0 if false (supports custom true/false labels).", "pro": true },
+        { "title": "Post Password Protected", "slug": "dynatafopro-post-password-protected", "field_type": "Text/Number", "note": "Checks if the post is password protected. Returns 1 if true, 0 if false (supports custom true/false labels).", "pro": true },
+        { "title": "Post Menu Order", "slug": "dynatafopro-post-menu-order", "field_type": "Number", "note": "Outputs the menu order value defined for the current page or hierarchical post.", "pro": true },
+        { "title": "Days Since Post Published", "slug": "dynatafopro-days-since-post-published", "field_type": "Number", "note": "Outputs the number of days since the current post was published.", "pro": true },
+        { "title": "Days Until Event / Date", "slug": "dynatafopro-days-until-event-date", "field_type": "Number", "note": "Outputs the number of days until a custom target date or meta date field.", "pro": true }
+      ]
+    },
+    {
+      "name": "Media Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "Post Thumbnail Alt Text", "slug": "dynatafopro-post-thumbnail-alt", "field_type": "Text", "note": "Outputs the alternative text of the current post's featured image.", "pro": true },
+        { "title": "Post Thumbnail Caption", "slug": "dynatafopro-post-thumbnail-caption", "field_type": "Text", "note": "Outputs the caption of the current post's featured image.", "pro": true },
+        { "title": "Post Thumbnail Description", "slug": "dynatafopro-post-thumbnail-desc", "field_type": "Text", "note": "Outputs the description of the current post's featured image.", "pro": true },
+        { "title": "Attachment File Size", "slug": "dynatafopro-attachment-file-size", "field_type": "Text", "note": "Outputs the human-readable file size (e.g. 1.2 MB) of a media attachment file.", "pro": true },
+        { "title": "Attachment File Type", "slug": "dynatafopro-attachment-file-type", "field_type": "Text", "note": "Outputs the file extension or MIME type (e.g. pdf, image/jpeg) of the media attachment.", "pro": true },
+        { "title": "Attachment Dimensions", "slug": "dynatafopro-attachment-dimensions", "field_type": "Text", "note": "Outputs the width and height (e.g. 1920x1080) of the image attachment.", "pro": true }
+      ]
+    },
+    {
+      "name": "Author Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "Current User First Name", "slug": "dynatafopro-current-user-first-name", "field_type": "Text", "note": "Outputs the first name of the currently logged-in user.", "pro": true },
+        { "title": "Current User Last Name", "slug": "dynatafopro-current-user-last-name", "field_type": "Text", "note": "Outputs the last name of the currently logged-in user.", "pro": true },
+        { "title": "Logged In Status", "slug": "dynatafopro-logged-in-status", "field_type": "Text/Number", "note": "Outputs 1 if visitor is logged in, or 0 if not logged in. Supports custom true/false labels.", "pro": true },
+        { "title": "Current User Post Count", "slug": "dynatafopro-current-user-post-count", "field_type": "Number", "note": "Outputs the total number of published posts by the currently logged-in user.", "pro": true },
+        { "title": "Current User Comment Count", "slug": "dynatafopro-current-user-comment-count", "field_type": "Number", "note": "Outputs the total number of approved comments by the currently logged-in user.", "pro": true },
+        { "title": "Current User Nickname", "slug": "dynatafopro-current-user-nickname", "field_type": "Text", "note": "Outputs the nickname of the currently logged-in user.", "pro": true },
+        { "title": "Current User Website URL", "slug": "dynatafopro-current-user-website-url", "field_type": "URL", "note": "Outputs the website URL of the currently logged-in user.", "pro": true },
+        { "title": "Current User Description / Bio", "slug": "dynatafopro-current-user-description", "field_type": "Text", "note": "Outputs the biographical description of the currently logged-in user.", "pro": true },
+        { "title": "Current User Meta (Generic)", "slug": "dynatafopro-current-user-meta", "field_type": "Text", "note": "Retrieves the value of a custom user meta field for the currently logged-in user.", "pro": true },
+        { "title": "Author Post Count", "slug": "dynatafopro-author-post-count", "field_type": "Number", "note": "Outputs the total number of published posts by the author of the current post.", "pro": true },
+        { "title": "Author Registration Date", "slug": "dynatafopro-author-reg-date", "field_type": "Text/Date", "note": "Outputs the formatted registration date of the author of the current post.", "pro": true },
+        { "title": "Author Social Links", "slug": "dynatafopro-author-social-links", "field_type": "URL", "note": "Outputs social links or custom profile URL fields (Twitter, Facebook, LinkedIn, website) for the post author.", "pro": true }
+      ]
+    },
+    {
+      "name": "Site Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "WordPress Version", "slug": "dynatafopro-site-wp-version", "field_type": "Text", "note": "Outputs the current WordPress version string.", "pro": true },
+        { "title": "PHP Version", "slug": "dynatafopro-site-php-version", "field_type": "Text", "note": "Outputs the current PHP version string.", "pro": true },
+        { "title": "Site Admin Email", "slug": "dynatafopro-site-admin-email", "field_type": "Text/URL", "note": "Outputs the administrator email address of the site.", "pro": true },
+        { "title": "Site Language", "slug": "dynatafopro-site-language", "field_type": "Text", "note": "Outputs the active site locale code (e.g. en_US).", "pro": true },
+        { "title": "Site Charset", "slug": "dynatafopro-site-charset", "field_type": "Text", "note": "Outputs the configured site character set encoding.", "pro": true },
+        { "title": "Custom Option Value", "slug": "dynatafopro-custom-option-value", "field_type": "Text/Number", "note": "Retrieves any WordPress option value from options table by option name.", "pro": true },
+        { "title": "Theme Name", "slug": "dynatafopro-theme-name", "field_type": "Text", "note": "Outputs the name of the active theme.", "pro": true },
+        { "title": "Theme Version", "slug": "dynatafopro-theme-version", "field_type": "Text", "note": "Outputs the version of the active theme.", "pro": true },
+        { "title": "Child Theme Name", "slug": "dynatafopro-child-theme-name", "field_type": "Text", "note": "Outputs the child theme name if active, or falls back to parent theme.", "pro": true },
+        { "title": "Active Plugins Count", "slug": "dynatafopro-active-plugins-count", "field_type": "Number", "note": "Outputs the total number of currently active plugins on the site.", "pro": true },
+        { "title": "Memory Usage", "slug": "dynatafopro-memory-usage", "field_type": "Text", "note": "Outputs current PHP memory usage details.", "pro": true },
+        { "title": "Server Time Zone", "slug": "dynatafopro-server-timezone", "field_type": "Text", "note": "Outputs the WordPress configured timezone setting.", "pro": true },
+        { "title": "Site Tagline with Fallback", "slug": "dynatafopro-site-description-pro", "field_type": "Text", "note": "Outputs the site tagline with a customizable fallback option if empty.", "pro": true }
+      ]
+    },
+    {
+      "name": "EasyCommerce Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "Product Title", "slug": "dynatafopro-easycommerce-product-title", "field_type": "Text", "note": "Outputs the title of the current EasyCommerce product.", "pro": true },
+        { "title": "Product ID", "slug": "dynatafopro-easycommerce-product-id", "field_type": "Number/Text", "note": "Outputs the unique numeric database ID of the current EasyCommerce product.", "pro": true },
+        { "title": "Product SKU", "slug": "dynatafopro-easycommerce-product-sku", "field_type": "Text", "note": "Outputs the SKU code of the current EasyCommerce product.", "pro": true },
+        { "title": "Product Active Price", "slug": "dynatafopro-easycommerce-product-price", "field_type": "Text", "note": "Outputs the active formatted or raw price of the EasyCommerce product.", "pro": true },
+        { "title": "Product Regular Price", "slug": "dynatafopro-easycommerce-product-regular-price", "field_type": "Text", "note": "Outputs the regular list price of the EasyCommerce product.", "pro": true },
+        { "title": "Product Sale Price", "slug": "dynatafopro-easycommerce-product-sale-price", "field_type": "Text", "note": "Outputs the sale price of the EasyCommerce product.", "pro": true },
+        { "title": "Product On Sale Status", "slug": "dynatafopro-easycommerce-product-on-sale", "field_type": "Text", "note": "Outputs a custom sale badge text if the EasyCommerce product is on sale.", "pro": true },
+        { "title": "Product Stock Quantity", "slug": "dynatafopro-easycommerce-product-stock", "field_type": "Number/Text", "note": "Outputs the stock quantity or inventory status of the EasyCommerce product.", "pro": true },
+        { "title": "Product Total Sales", "slug": "dynatafopro-easycommerce-product-total-sales", "field_type": "Number/Text", "note": "Outputs the total units sold count for the EasyCommerce product.", "pro": true },
+        { "title": "Product Rating Average", "slug": "dynatafopro-easycommerce-product-rating", "field_type": "Number/Text", "note": "Outputs the average review star rating of the EasyCommerce product.", "pro": true },
+        { "title": "Product Review Count", "slug": "dynatafopro-easycommerce-product-review-count", "field_type": "Number/Text", "note": "Outputs the total number of reviews for the EasyCommerce product.", "pro": true },
+        { "title": "Product Short Description", "slug": "dynatafopro-easycommerce-product-short-desc", "field_type": "Text", "note": "Outputs the short description or summary of the EasyCommerce product.", "pro": true },
+        { "title": "Product Type", "slug": "dynatafopro-easycommerce-product-type", "field_type": "Text", "note": "Outputs the product classification (Physical, Digital, Variable).", "pro": true },
+        { "title": "Product Direct Checkout URL", "slug": "dynatafopro-easycommerce-product-checkout-url", "field_type": "URL", "note": "Generates a direct add-to-cart checkout link for the EasyCommerce product.", "pro": true },
+        { "title": "Product Thumbnail Image URL", "slug": "dynatafopro-easycommerce-product-thumbnail-url", "field_type": "URL/Image", "note": "Outputs the direct image URL of the featured product image.", "pro": true },
+        { "title": "Product Gallery Images", "slug": "dynatafopro-easycommerce-product-gallery-images", "field_type": "Text/Gallery", "note": "Outputs gallery image URLs with custom separators.", "pro": true },
+        { "title": "Product Categories", "slug": "dynatafopro-easycommerce-product-categories", "field_type": "Text", "note": "Outputs a comma-separated list of product categories.", "pro": true },
+        { "title": "Product Tags", "slug": "dynatafopro-easycommerce-product-tags", "field_type": "Text", "note": "Outputs a comma-separated list of product tags.", "pro": true },
+        { "title": "Product Brands", "slug": "dynatafopro-easycommerce-product-brands", "field_type": "Text", "note": "Outputs a comma-separated list of product brand taxonomy terms.", "pro": true },
+        { "title": "Product Downloads Count", "slug": "dynatafopro-easycommerce-product-downloads-count", "field_type": "Number/Text", "note": "Outputs the total number of digital download files attached to the product.", "pro": true },
+        { "title": "Cart Total Amount", "slug": "dynatafopro-easycommerce-cart-total", "field_type": "Text", "note": "Outputs the active user's cart total amount.", "pro": true },
+        { "title": "Cart Item Count", "slug": "dynatafopro-easycommerce-cart-item-count", "field_type": "Number/Text", "note": "Outputs the total quantity of items currently in the active cart.", "pro": true },
+        { "title": "Cart Subtotal", "slug": "dynatafopro-easycommerce-cart-subtotal", "field_type": "Text", "note": "Outputs the active cart subtotal amount before shipping and tax.", "pro": true },
+        { "title": "Checkout Page URL", "slug": "dynatafopro-easycommerce-cart-checkout-url", "field_type": "URL", "note": "Outputs the store checkout page URL.", "pro": true },
+        { "title": "Cart Page URL", "slug": "dynatafopro-easycommerce-cart-url", "field_type": "URL", "note": "Outputs the store cart page URL.", "pro": true },
+        { "title": "Store Currency Code", "slug": "dynatafopro-easycommerce-store-currency-code", "field_type": "Text", "note": "Outputs the active store currency code (e.g. USD, EUR, BDT).", "pro": true },
+        { "title": "Store Currency Symbol", "slug": "dynatafopro-easycommerce-store-currency-symbol", "field_type": "Text", "note": "Outputs the active store currency symbol (e.g. $, €, ৳).", "pro": true },
+        { "title": "Total Store Orders", "slug": "dynatafopro-easycommerce-store-total-orders", "field_type": "Number/Text", "note": "Outputs the total count of completed store orders.", "pro": true }
+      ]
+    },
+    {
+      "name": "EventPrime Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "Event Start Date", "slug": "dynatafopro-ep-event-start-date", "field_type": "Date", "note": "Outputs the start date of the event.", "pro": true },
+        { "title": "Event End Date", "slug": "dynatafopro-ep-event-end-date", "field_type": "Date", "note": "Outputs the end date of the event.", "pro": true },
+        { "title": "Event Start Time", "slug": "dynatafopro-ep-event-start-time", "field_type": "Text", "note": "Outputs the formatted start time of the event.", "pro": true },
+        { "title": "Event End Time", "slug": "dynatafopro-ep-event-end-time", "field_type": "Text", "note": "Outputs the formatted end time of the event.", "pro": true },
+        { "title": "Event Venue", "slug": "dynatafopro-ep-event-venue", "field_type": "Text", "note": "Outputs the name of the venue where the event takes place.", "pro": true },
+        { "title": "Event Venue URL", "slug": "dynatafopro-ep-event-venue-url", "field_type": "URL", "note": "Outputs the URL of the event venue.", "pro": true },
+        { "title": "Event Organizer", "slug": "dynatafopro-ep-event-organizer", "field_type": "Text", "note": "Outputs the name of the event organizer.", "pro": true },
+        { "title": "Event Type", "slug": "dynatafopro-ep-event-type", "field_type": "Text", "note": "Outputs the event type taxonomy term.", "pro": true },
+        { "title": "Event URL", "slug": "dynatafopro-ep-event-url", "field_type": "URL", "note": "Outputs the direct link to the event page.", "pro": true },
+        { "title": "Event Custom Link", "slug": "dynatafopro-ep-event-custom-link", "field_type": "URL", "note": "Outputs the custom external link configured for the event.", "pro": true },
+        { "title": "Event Capacity", "slug": "dynatafopro-ep-event-capacity", "field_type": "Number/Text", "note": "Outputs the total capacity of attendees for the event.", "pro": true },
+        { "title": "Event Booked Seats", "slug": "dynatafopro-ep-event-booked-seats", "field_type": "Number/Text", "note": "Outputs the number of booked seats for the event.", "pro": true },
+        { "title": "Event Available Seats", "slug": "dynatafopro-ep-event-available-seats", "field_type": "Number/Text", "note": "Outputs the remaining available seats for the event.", "pro": true },
+        { "title": "Event Status", "slug": "dynatafopro-ep-event-status", "field_type": "Text", "note": "Outputs the current booking status of the event.", "pro": true },
+        { "title": "Event Is Recurring", "slug": "dynatafopro-ep-event-is-recurring", "field_type": "Text", "note": "Outputs whether the event is recurring or a single occurrence.", "pro": true }
+      ]
+    },
+    {
+      "name": "PublishPress Authors Pro (DTE)",
+      "pro": true,
+      "tags": [
+        { "title": "Author Name", "slug": "dynatafopro-ppa-author-name", "field_type": "Text", "note": "Outputs author name. Supports First Author, Specific Index, or All Authors with custom separators and archive links.", "pro": true },
+        { "title": "Author Bio", "slug": "dynatafopro-ppa-author-bio", "field_type": "Text", "note": "Outputs the author biographical info / description for guest and user authors.", "pro": true },
+        { "title": "Author Email", "slug": "dynatafopro-ppa-author-email", "field_type": "Text/URL", "note": "Outputs the author email address or a mailto: link.", "pro": true },
+        { "title": "Author URL", "slug": "dynatafopro-ppa-author-url", "field_type": "URL", "note": "Outputs the author archive URL or website URL with WPML language support.", "pro": true },
+        { "title": "Author Profile Picture", "slug": "dynatafopro-ppa-author-profile-picture", "field_type": "URL/Image", "note": "Outputs the author avatar supporting custom uploaded guest author avatars and Gravatar.", "pro": true },
+        { "title": "Author Meta", "slug": "dynatafopro-ppa-author-meta", "field_type": "Text/Number/URL", "note": "Outputs custom author meta or social profiles (Facebook, Twitter/X, LinkedIn, Instagram, YouTube, etc.).", "pro": true },
+        { "title": "Post Authors Count", "slug": "dynatafopro-ppa-authors-count", "field_type": "Number/Text", "note": "Outputs the total count of authors assigned to the post.", "pro": true },
+        { "title": "Author Posts Count", "slug": "dynatafopro-ppa-author-posts-count", "field_type": "Number/Text", "note": "Outputs the total published posts count for the selected author from the author taxonomy.", "pro": true }
+      ]
+    }
+  ]
+}

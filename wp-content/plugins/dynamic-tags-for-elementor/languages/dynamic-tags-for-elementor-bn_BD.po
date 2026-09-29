@@ -1,0 +1,1792 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dynamic Tags for Elementor 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dynamic-tags-for-"
+"elementor\n"
+"POT-Creation-Date: 2026-06-19T19:13:24+00:00\n"
+"PO-Revision-Date: 2026-03-14 00:00+0000\n"
+"Last-Translator: Auto Generated\n"
+"Language-Team: Bangla\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GitHub Copilot\n"
+"X-Domain: dynamic-tags-for-elementor\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: dynamic-tags-for-elementor.php
+msgid "Dynamic Tags for Elementor"
+msgstr "Elementor এর জন্য ডাইনামিক ট্যাগস"
+
+#. Description of the plugin
+#: dynamic-tags-for-elementor.php
+msgid ""
+"Enables dynamic tag functionality for the free version of Elementor and "
+"allows creating custom tags."
+msgstr ""
+"Elementor-এর ফ্রি সংস্করণের জন্য ডাইনামিক ট্যাগ সুবিধা চালু করে এবং কাস্টম ট্যাগ "
+"তৈরি করতে দেয়।"
+
+#. Author of the plugin
+#: dynamic-tags-for-elementor.php
+msgid "Md Mustafa Kamal Hossain"
+msgstr "মো. মুস্তাফা কামাল হোসাইন"
+
+#: dynamic-tags-for-elementor.php:139
+msgid ""
+"Dynamic Tags for Elementor requires Elementor to be installed and active."
+msgstr ""
+"Dynamic Tags for Elementor ব্যবহারের জন্য Elementor ইনস্টল এবং সক্রিয় থাকা আবশ্যক।"
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:9
+#, fuzzy
+msgid "ACF Choice (DTE)"
+msgstr "ACF (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:17
+#, fuzzy
+msgid "Field Name"
+msgstr "সাব ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:27
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:27
+#: dynamic-tags/post/class-dynatafo-post-parent.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:27
+msgid "Output"
+msgstr "আউটপুট"
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:31
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:31
+msgid "Label (fallback to Value)"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:32
+msgid "Value"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:33
+msgid "Raw JSON"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:41
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:52
+#: dynamic-tags/post/class-dynatafo-post-categories.php:15
+#: dynamic-tags/post/class-dynatafo-post-tags.php:15
+#: dynamic-tags/post/class-dynatafo-post-terms.php:28
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:41
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:52
+#: dynamic-tags/user/class-dynatafo-user-role.php:37
+msgid "Separator"
+msgstr "বিভাজক"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:9
+msgid "ACF Date Picker Formatted (DTE)"
+msgstr "ACF তারিখ পিকার ফরম্যাটেড (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:17
+msgid "Date Field Name"
+msgstr "তারিখ ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:27
+#: dynamic-tags/post/class-dynatafo-post-date.php:15
+#: dynamic-tags/post/class-dynatafo-post-modified-date.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:27
+#: dynamic-tags/user/class-dynatafo-current-user-reg-date.php:15
+msgid "Date Format"
+msgstr "তারিখ ফরম্যাট"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:31
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:31
+msgid "Use PHP date format, e.g. F j, Y"
+msgstr "PHP তারিখ ফরম্যাট ব্যবহার করুন, যেমন F j, Y"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:9
+#, fuzzy
+msgid "ACF Field (DTE)"
+msgstr "ACF (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:27
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:37
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:37
+msgid "Output Format"
+msgstr "আউটপুট ফরম্যাট"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:31
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:41
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:31
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:41
+msgid "Text"
+msgstr "টেক্সট"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:32
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:31
+#: dynamic-tags/author/class-dynatafo-author-url.php:20
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:20
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:31
+msgid "URL"
+msgstr "URL"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:33
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:44
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:44
+msgid "Image URL"
+msgstr "ছবির URL"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:34
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:34
+#, fuzzy
+msgid "Image Data"
+msgstr "ছবির মেটা কী"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:35
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:35
+#, fuzzy
+msgid "ID"
+msgstr "ID সমূহ"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:36
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:36
+msgid "Raw"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:9
+#, fuzzy
+msgid "ACF File (DTE)"
+msgstr "ACF (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:32
+msgid "Attachment ID"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:33
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:31
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:129
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:19
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:31
+#, fuzzy
+msgid "Title"
+msgstr "পোস্ট শিরোনাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:34
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:34
+msgid "Filename"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:35
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:35
+msgid "MIME Type"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-gallery-first.php:9
+msgid "ACF Gallery First Image (DTE)"
+msgstr "ACF গ্যালারির প্রথম ছবি (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-gallery-first.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-gallery-first.php:17
+msgid "Gallery Field Name"
+msgstr "গ্যালারি ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-image-data.php:9
+#, fuzzy
+msgid "ACF Image Data (DTE)"
+msgstr "ACF রিপিটার (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-image-data.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-image-data.php:17
+#, fuzzy
+msgid "Image Field Name"
+msgstr "তারিখ ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-image-data.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-image-data.php:27
+msgid "Allow First Gallery Item"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:9
+msgid "ACF Link Attribute (DTE)"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-link-text.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-link-url.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-link-text.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-link-url.php:17
+#, fuzzy
+msgid "Link Field Name"
+msgstr "সাব ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:27
+msgid "Attribute"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:32
+msgid "Target"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:33
+msgid "Rel"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-text.php:9
+#, fuzzy
+msgid "ACF Link Text (DTE)"
+msgstr "ACF রিপিটার (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-text.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-link-text.php:27
+msgid "Fallback To URL"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-url.php:9
+#, fuzzy
+msgid "ACF Link URL (DTE)"
+msgstr "সাইট URL (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-url.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-link-url.php:27
+msgid "Use Raw URL If Text"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-relationship-first-title.php:9
+msgid "ACF Relationship First Post Title (DTE)"
+msgstr "ACF রিলেশনশিপ প্রথম পোস্ট শিরোনাম (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-relationship-first-title.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-relationship-first-title.php:17
+msgid "Relationship Field Name"
+msgstr "রিলেশনশিপ ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:9
+msgid "ACF Repeater (DTE)"
+msgstr "ACF রিপিটার (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:17
+msgid "Repeater Field Name"
+msgstr "রিপিটার ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:27
+msgid "Sub Field Name"
+msgstr "সাব ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:42
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:42
+msgid "URLs"
+msgstr "URL সমূহ"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:43
+#: dynamic-tags/post/class-dynatafo-is-post-in-list.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:43
+msgid "IDs"
+msgstr "ID সমূহ"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:61
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:61
+msgid "Max Rows"
+msgstr "সর্বোচ্চ সারি"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:70
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:70
+msgid "Row Offset"
+msgstr "সারি অফসেট"
+
+#: dynamic-tags/acf/class-dynatafo-acf-taxonomy-term.php:9
+msgid "ACF Taxonomy Term Name (DTE)"
+msgstr "ACF ট্যাক্সোনমি টার্ম নাম (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-taxonomy-term.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-taxonomy-term.php:17
+msgid "Taxonomy Field Name"
+msgstr "ট্যাক্সোনমি ফিল্ডের নাম"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:9
+#, fuzzy
+msgid "ACF True/False (DTE)"
+msgstr "ACF রিপিটার (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:27
+#, fuzzy
+msgid "True Output"
+msgstr "আউটপুট"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:29
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:29
+msgid "Yes"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:37
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:37
+#, fuzzy
+msgid "False Output"
+msgstr "আউটপুট"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:39
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:39
+msgid "No"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:7
+#, fuzzy
+msgid "Contact URL (DTE)"
+msgstr "পোস্ট URL (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:15
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:219
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:15
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:15
+msgid "Type"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:19
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:36
+#: dynamic-tags/author/class-dynatafo-author-info.php:21
+#: dynamic-tags/user/class-dynatafo-user-info.php:20
+msgid "Email"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:20
+msgid "Tel"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:21
+msgid "SMS"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:22
+msgid "WhatsApp"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:23
+msgid "Messenger"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:24
+msgid "Viber"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:25
+msgid "Waze"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:26
+msgid "Google Calendar"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:27
+msgid "Outlook Calendar"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:28
+msgid "Yahoo Calendar"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:49
+msgid "Subject"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:61
+msgid "Message"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:72
+msgid "Number"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:85
+#, fuzzy
+msgid "Username"
+msgstr "ব্যবহারকারী"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:97
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:15
+#, fuzzy
+msgid "Action"
+msgstr "অ্যাকশন"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:101
+msgid "Contact"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:102
+msgid "Add"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:113
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:148
+#, fuzzy
+msgid "Location"
+msgstr "অ্যাকশন"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:139
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:22
+msgid "Description"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:158
+#, fuzzy
+msgid "Start"
+msgstr "দ্রুত শুরু"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:167
+msgid "End"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-current-url.php:7
+msgid "Current URL (DTE)"
+msgstr "বর্তমান URL (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:17
+#, fuzzy
+msgid "Internal URL (DTE)"
+msgstr "সাইট URL (DTE)"
+
+#. translators: 1: Current pagination page number, 2: Total number of pages.
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:50
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:74
+#, fuzzy
+msgid "(no title)"
+msgstr "পোস্ট শিরোনাম"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:149
+msgid "(untitled media)"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:223
+msgid "Content"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:224
+#: dynamic-tags/post/class-dynatafo-post-terms.php:15
+#, fuzzy
+msgid "Taxonomy"
+msgstr "ট্যাক্সোনমি (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:225
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:34
+#, fuzzy
+msgid "Media"
+msgstr "মিডিয়া (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:226
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:21
+msgid "Author"
+msgstr "লেখক"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:234
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:304
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:370
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:436
+msgid "Search & Select"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:249
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:319
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:385
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:451
+msgid "Search"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:252
+msgid "Filter results by title or slug, then reopen the selector."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:262
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:332
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:398
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:464
+msgid "Page"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:322
+msgid "Filter terms by name or slug, then reopen the selector."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:388
+msgid "Filter media by title or slug, then reopen the selector."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:454
+msgid "Filter authors by name, nicename, login, or email."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:7
+#, fuzzy
+msgid "Lightbox (DTE)"
+msgstr "সাইট (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:20
+msgid "Video"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:24
+#, fuzzy
+msgid "Image"
+msgstr "ছবির URL"
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:45
+msgid "Video URL"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:7
+msgid "Off-Canvas (DTE)"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:19
+msgid "Open Off-Canvas"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:20
+msgid "Close Off-Canvas"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:21
+msgid "Toggle Off-Canvas"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:29
+msgid "Off-Canvas ID"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:33
+msgid "Widget/container ID used by your off-canvas panel."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-reload-page-url.php:11
+#, fuzzy
+msgid "Reload Page (DTE)"
+msgstr "ফিচার্ড ছবি (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-shortcode-url.php:7
+#, fuzzy
+msgid "Shortcode (DTE)"
+msgstr "সাইট (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-shortcode-url.php:15
+#, fuzzy
+msgid "Shortcode"
+msgstr "মান/শর্টকোড"
+
+#: dynamic-tags/actions/class-dynatafo-shortcode-url.php:19
+msgid ""
+"Enter any shortcode. Its rendered output will be used as the dynamic value."
+msgstr ""
+
+#: dynamic-tags/archive/class-dynatafo-archive-description.php:7
+#, fuzzy
+msgid "Archive Description (DTE)"
+msgstr "বর্তমান টার্ম বিবরণ (DTE)"
+
+#: dynamic-tags/archive/class-dynatafo-archive-meta.php:7
+#, fuzzy
+msgid "Archive Meta (DTE)"
+msgstr "আর্কাইভ (DTE)"
+
+#: dynamic-tags/archive/class-dynatafo-archive-meta.php:15
+#, fuzzy
+msgid "Term Meta Key"
+msgstr "ছবির মেটা কী"
+
+#: dynamic-tags/archive/class-dynatafo-archive-meta.php:18
+msgid ""
+"Used for taxonomy archives. Leave empty to show a default archive summary."
+msgstr ""
+
+#: dynamic-tags/archive/class-dynatafo-archive-title.php:7
+msgid "Archive Title (DTE)"
+msgstr "আর্কাইভ শিরোনাম (DTE)"
+
+#: dynamic-tags/archive/class-dynatafo-archive-url.php:11
+#, fuzzy
+msgid "Archive URL (DTE)"
+msgstr "আর্কাইভ (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:7
+#, fuzzy
+msgid "Author Info (DTE)"
+msgstr "লেখক (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:15
+#: dynamic-tags/user/class-dynatafo-user-info.php:15
+#, fuzzy
+msgid "Field"
+msgstr "ফিল্ড টাইপ"
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:19
+#: dynamic-tags/user/class-dynatafo-user-info.php:19
+msgid "Display Name"
+msgstr ""
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:20
+msgid "Bio"
+msgstr ""
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:22
+#: dynamic-tags/user/class-dynatafo-user-info.php:21
+msgid "Website"
+msgstr ""
+
+#: dynamic-tags/author/class-dynatafo-author-meta.php:7
+#, fuzzy
+msgid "Author Meta (DTE)"
+msgstr "লেখক (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-meta.php:15
+#, fuzzy
+msgid "Meta Key"
+msgstr "ছবির মেটা কী"
+
+#: dynamic-tags/author/class-dynatafo-author-name.php:6
+msgid "Author Name (DTE)"
+msgstr "লেখকের নাম (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-profile-picture.php:7
+#, fuzzy
+msgid "Author Profile Picture (DTE)"
+msgstr "লেখকের নাম (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-url.php:11
+#, fuzzy
+msgid "Author URL (DTE)"
+msgstr "লেখক (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-url.php:24
+#, fuzzy
+msgid "Author Archive"
+msgstr "লেখক বা ব্যবহারকারী"
+
+#: dynamic-tags/author/class-dynatafo-author-url.php:25
+#, fuzzy
+msgid "Author Website"
+msgstr "লেখক বা ব্যবহারকারী"
+
+#: dynamic-tags/comments/class-dynatafo-are-comments-allowed.php:7
+msgid "Are Comments Allowed (DTE)"
+msgstr "মন্তব্য অনুমোদিত? (DTE)"
+
+#: dynamic-tags/comments/class-dynatafo-comments-number.php:7
+#, fuzzy
+msgid "Comments Number (DTE)"
+msgstr "মন্তব্য অনুমোদিত? (DTE)"
+
+#: dynamic-tags/comments/class-dynatafo-comments-url.php:7
+#, fuzzy
+msgid "Comments URL (DTE)"
+msgstr "বর্তমান URL (DTE)"
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:7
+#, fuzzy
+msgid "Featured Image Data (DTE)"
+msgstr "ফিচার্ড ছবি (DTE)"
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:15
+msgid "Data"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:20
+#, fuzzy
+msgid "Alt"
+msgstr "সব"
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:21
+msgid "Caption"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:23
+msgid "File URL"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:24
+msgid "Attachment URL"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image.php:7
+msgid "Featured Image (DTE)"
+msgstr "ফিচার্ড ছবি (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-404.php:7
+msgid "Is 404 (DTE)"
+msgstr "404 এরর? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-author-of-post.php:7
+msgid "Is Current User Author Of Post (DTE)"
+msgstr "বর্তমান ব্যবহারকারী পোস্টের লেখক? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-feed.php:7
+msgid "Is Feed (DTE)"
+msgstr "ফিড? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-frontpage.php:7
+msgid "Is Front Page (DTE)"
+msgstr "সামনের পাতা? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-home.php:7
+msgid "Is Home (DTE)"
+msgstr "হোম পাতা? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-post-in-category.php:7
+msgid "Is Post In Category (DTE)"
+msgstr "পোস্ট ক্যাটাগরিতে আছে? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-post-in-category.php:15
+#: dynamic-tags/post/class-dynatafo-post-terms.php:19
+msgid "Categories"
+msgstr "ক্যাটাগরিসমূহ"
+
+#: dynamic-tags/post/class-dynatafo-is-post-in-list.php:7
+msgid "Is Post In List (DTE)"
+msgstr "পোস্ট তালিকায় আছে? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-singular.php:7
+msgid "Is Singular (DTE)"
+msgstr "একক পোস্ট? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:7
+msgid "Number Posts Query (DTE)"
+msgstr "পোস্ট সংখ্যা কোয়েরি (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:15
+#: includes/class-dynatafo-admin.php:850
+msgid "Category"
+msgstr "ক্যাটাগরি"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:27
+msgid "Post Types"
+msgstr "পোস্ট টাইপসমূহ"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:39
+msgid "Custom Query"
+msgstr "কাস্টম কোয়েরি"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:43
+msgid "One per line, example:"
+msgstr "প্রতি লাইনে একটি, উদাহরণ:"
+
+#: dynamic-tags/post/class-dynatafo-page-title.php:7
+#, fuzzy
+msgid "Page Title (DTE)"
+msgstr "সাইট শিরোনাম (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-categories.php:7
+msgid "Post Categories List (DTE)"
+msgstr "পোস্ট ক্যাটাগরি তালিকা (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-categories.php:24
+#: dynamic-tags/post/class-dynatafo-post-tags.php:24
+msgid "Include Links"
+msgstr "লিংক অন্তর্ভুক্ত করুন"
+
+#: dynamic-tags/post/class-dynatafo-post-comment-count.php:7
+msgid "Post Comment Count (DTE)"
+msgstr "পোস্ট মন্তব্য সংখ্যা (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-content.php:7
+msgid "Post Content (DTE)"
+msgstr "পোস্ট কনটেন্ট (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-content.php:15
+msgid "Without filters"
+msgstr "ফিল্টার ছাড়া"
+
+#: dynamic-tags/post/class-dynatafo-post-custom-field.php:7
+#, fuzzy
+msgid "Post Custom Field (DTE)"
+msgstr "পোস্টের তারিখ (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-custom-field.php:15
+#: dynamic-tags/user/class-dynatafo-user-role.php:26
+msgid "Key"
+msgstr "কী"
+
+#: dynamic-tags/post/class-dynatafo-post-date.php:7
+msgid "Post Date (DTE)"
+msgstr "পোস্টের তারিখ (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-excerpt.php:6
+msgid "Post Excerpt (DTE)"
+msgstr "পোস্ট সারাংশ (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-featured-image.php:7
+#, fuzzy
+msgid "Post Featured Image (DTE)"
+msgstr "ফিচার্ড ছবি (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-gallery.php:7
+#, fuzzy
+msgid "Post Gallery (DTE)"
+msgstr "পোস্টের তারিখ (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-id.php:7
+#, fuzzy
+msgid "Post ID (DTE)"
+msgstr "পোস্ট (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-modified-date.php:7
+msgid "Post Modified Date (DTE)"
+msgstr "পোস্ট পরিবর্তনের তারিখ (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:7
+msgid "Post Parent (DTE)"
+msgstr "পোস্ট প্যারেন্ট (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:21
+msgid "Post Title"
+msgstr "পোস্ট শিরোনাম"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:22
+msgid "Post Name"
+msgstr "পোস্টের নাম"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:36
+msgid "No Parent"
+msgstr "কোন প্যারেন্ট নেই"
+
+#: dynamic-tags/post/class-dynatafo-post-status.php:7
+msgid "Post Status (DTE)"
+msgstr "পোস্ট স্ট্যাটাস (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-tags.php:7
+msgid "Post Tags List (DTE)"
+msgstr "পোস্ট ট্যাগ তালিকা (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-terms.php:7
+#, fuzzy
+msgid "Post Terms (DTE)"
+msgstr "পোস্ট টাইপ (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-terms.php:20
+msgid "Tags"
+msgstr ""
+
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:7
+msgid "Post Thumbnail URL (DTE)"
+msgstr "পোস্ট থাম্বনেইল URL (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:21
+msgid "Image Object"
+msgstr "ছবির অবজেক্ট"
+
+#: dynamic-tags/post/class-dynatafo-post-time.php:7
+#, fuzzy
+msgid "Post Time (DTE)"
+msgstr "পোস্ট শিরোনাম (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-time.php:15
+#, fuzzy
+msgid "Time Format"
+msgstr "তারিখ ফরম্যাট"
+
+#: dynamic-tags/post/class-dynatafo-post-title.php:11
+msgid "Post Title (DTE)"
+msgstr "পোস্ট শিরোনাম (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:7
+msgid "Post Type (DTE)"
+msgstr "পোস্ট টাইপ (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:15
+#: dynamic-tags/user/class-dynatafo-user-role.php:46
+#: dynamic-tags/utils/class-dynatafo-current-date-time.php:15
+msgid "Format"
+msgstr "ফরম্যাট"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:20
+#: dynamic-tags/user/class-dynatafo-user-role.php:51
+msgid "Plain"
+msgstr "সরল"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:21
+msgid "Singular"
+msgstr "একবচন"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:22
+msgid "Plural"
+msgstr "বহুবচন"
+
+#: dynamic-tags/post/class-dynatafo-post-url.php:11
+msgid "Post URL (DTE)"
+msgstr "পোস্ট URL (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:9
+#, fuzzy
+msgid "SCF Choice (DTE)"
+msgstr "সাইট (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:9
+#, fuzzy
+msgid "SCF Date Picker Formatted (DTE)"
+msgstr "ACF তারিখ পিকার ফরম্যাটেড (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:9
+#, fuzzy
+msgid "SCF Field (DTE)"
+msgstr "সাইট (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:9
+#, fuzzy
+msgid "SCF File (DTE)"
+msgstr "সাইট (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-gallery-first.php:9
+#, fuzzy
+msgid "SCF Gallery First Image (DTE)"
+msgstr "ACF গ্যালারির প্রথম ছবি (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-image-data.php:9
+#, fuzzy
+msgid "SCF Image Data (DTE)"
+msgstr "ফিচার্ড ছবি (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:9
+#, fuzzy
+msgid "SCF Link Attribute (DTE)"
+msgstr "সাইট শিরোনাম (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-link-text.php:9
+#, fuzzy
+msgid "SCF Link Text (DTE)"
+msgstr "সাইট শিরোনাম (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-link-url.php:9
+#, fuzzy
+msgid "SCF Link URL (DTE)"
+msgstr "সাইট URL (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-relationship-first-title.php:9
+#, fuzzy
+msgid "SCF Relationship First Post Title (DTE)"
+msgstr "ACF রিলেশনশিপ প্রথম পোস্ট শিরোনাম (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:9
+#, fuzzy
+msgid "SCF Repeater (DTE)"
+msgstr "ACF রিপিটার (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-taxonomy-term.php:9
+#, fuzzy
+msgid "SCF Taxonomy Term Name (DTE)"
+msgstr "ACF ট্যাক্সোনমি টার্ম নাম (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:9
+#, fuzzy
+msgid "SCF True/False (DTE)"
+msgstr "সাইট ট্যাগলাইন (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-icon.php:7
+msgid "Site Icon (DTE)"
+msgstr "সাইট আইকন (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-logo.php:7
+msgid "Site Logo (DTE)"
+msgstr "সাইট লোগো (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-tagline.php:6
+msgid "Site Tagline (DTE)"
+msgstr "সাইট ট্যাগলাইন (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-title.php:6
+msgid "Site Title (DTE)"
+msgstr "সাইট শিরোনাম (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-url.php:11
+msgid "Site URL (DTE)"
+msgstr "সাইট URL (DTE)"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-description.php:7
+msgid "Current Term Description (DTE)"
+msgstr "বর্তমান টার্ম বিবরণ (DTE)"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-image.php:7
+msgid "Current Term Image (DTE)"
+msgstr "বর্তমান টার্ম ছবি (DTE)"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-image.php:15
+msgid "Image Meta Key"
+msgstr "ছবির মেটা কী"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-name.php:7
+msgid "Current Term Name (DTE)"
+msgstr "বর্তমান টার্মের নাম (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-can.php:7
+msgid "Current User Can (DTE)"
+msgstr "বর্তমান ব্যবহারকারীর অনুমতি (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-can.php:15
+msgid "Capability"
+msgstr "সক্ষমতা"
+
+#: dynamic-tags/user/class-dynatafo-current-user-display-name.php:7
+msgid "Current User Display Name (DTE)"
+msgstr "বর্তমান ব্যবহারকারীর প্রদর্শন নাম (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-email.php:7
+msgid "Current User Email (DTE)"
+msgstr "বর্তমান ব্যবহারকারীর ইমেইল (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-id.php:7
+msgid "Current User ID (DTE)"
+msgstr "বর্তমান ব্যবহারকারীর ID (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-reg-date.php:7
+msgid "Current User Registration Date (DTE)"
+msgstr "বর্তমান ব্যবহারকারীর নিবন্ধনের তারিখ (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:7
+msgid "User/Author Image URL (DTE)"
+msgstr "ব্যবহারকারী/লেখকের ছবির URL (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:15
+msgid "Author or User"
+msgstr "লেখক বা ব্যবহারকারী"
+
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:20
+msgid "User"
+msgstr "ব্যবহারকারী"
+
+#: dynamic-tags/user/class-dynatafo-user-info.php:7
+#, fuzzy
+msgid "User Info (DTE)"
+msgstr "ব্যবহারকারীর ভূমিকা (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-profile-picture.php:7
+#, fuzzy
+msgid "User Profile Picture (DTE)"
+msgstr "ব্যবহারকারীর ভূমিকা (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:7
+msgid "User Role (DTE)"
+msgstr "ব্যবহারকারীর ভূমিকা (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:13
+msgid "Current User"
+msgstr "বর্তমান ব্যবহারকারী"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:14
+msgid "Current Author"
+msgstr "বর্তমান লেখক"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:52
+msgid "Human readable"
+msgstr "মানব পাঠযোগ্য"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:53
+msgid "Translated"
+msgstr "অনূদিত"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:61
+msgid "Add wrapper around items"
+msgstr "আইটেমের চারপাশে র‍্যাপার যোগ করুন"
+
+#: dynamic-tags/utils/class-dynatafo-cookies.php:7
+msgid "Cookies (DTE)"
+msgstr "কুকিজ (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-cookies.php:15
+msgid "Cookie Name"
+msgstr "কুকির নাম"
+
+#: dynamic-tags/utils/class-dynatafo-cookies.php:26
+msgid "Custom Cookie Name"
+msgstr "কাস্টম কুকির নাম"
+
+#: dynamic-tags/utils/class-dynatafo-current-date-time.php:7
+#, fuzzy
+msgid "Current Date Time (DTE)"
+msgstr "বর্তমান টার্মের নাম (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-current-language.php:11
+msgid "Current Language (DTE)"
+msgstr "বর্তমান ভাষা (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-query-param.php:7
+msgid "Query String Parameter (DTE)"
+msgstr "কোয়েরি স্ট্রিং প্যারামিটার (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-query-param.php:15
+msgid "Parameter Key"
+msgstr "প্যারামিটার কী"
+
+#: dynamic-tags/utils/class-dynatafo-query-param.php:19
+msgid "Example: ref, utm_source, category"
+msgstr "উদাহরণ: ref, utm_source, category"
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:7
+#, fuzzy
+msgid "Request Parameter (DTE)"
+msgstr "কোয়েরি স্ট্রিং প্যারামিটার (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:19
+msgid "Get"
+msgstr ""
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:20
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:17
+msgid "Post"
+msgstr "পোস্ট"
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:21
+msgid "Query Var"
+msgstr ""
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:29
+#, fuzzy
+msgid "Parameter Name"
+msgstr "প্যারামিটার কী"
+
+#: dynamic-tags/utils/class-dynatafo-server-vars.php:7
+msgid "Server Variables (DTE)"
+msgstr "সার্ভার ভেরিয়েবলস (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-server-vars.php:26
+msgid "Variable"
+msgstr "ভেরিয়েবল"
+
+#: dynamic-tags/utils/class-dynatafo-session.php:7
+msgid "Session (DTE)"
+msgstr "সেশন (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-session.php:15
+msgid "Session Key"
+msgstr "সেশন কী"
+
+#: dynamic-tags/utils/class-dynatafo-session.php:25
+msgid "Custom Session Key"
+msgstr "কাস্টম সেশন কী"
+
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:7
+msgid "Widget Content (DTE)"
+msgstr "উইজেট কনটেন্ট (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:29
+msgid "Post ID"
+msgstr "পোস্ট ID"
+
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:39
+msgid "Widget ID"
+msgstr "উইজেট ID"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-add-to-cart-url.php:7
+msgid "Product Add To Cart URL (DTE)"
+msgstr "পণ্য কার্টে যোগ করার URL (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-product-categories.php:7
+msgid "Product Categories (DTE)"
+msgstr "পণ্য ক্যাটাগরি (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-product-price.php:7
+msgid "Product Price (DTE)"
+msgstr "পণ্যের মূল্য (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-rating.php:7
+msgid "Product Rating (DTE)"
+msgstr "পণ্যের রেটিং (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-sale-price.php:7
+msgid "Product Sale Price (DTE)"
+msgstr "পণ্যের বিক্রয় মূল্য (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-sku.php:7
+msgid "Product SKU (DTE)"
+msgstr "পণ্যের SKU (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-stock-status.php:7
+msgid "Product Stock Status (DTE)"
+msgstr "পণ্যের স্টক স্ট্যাটাস (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-stock-status.php:23
+msgid "In stock"
+msgstr "স্টকে আছে"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-stock-status.php:24
+msgid "Out of stock"
+msgstr "স্টক নেই"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woocommerce-is-featured.php:7
+msgid "WooCommerce Is Featured Product (DTE)"
+msgstr "WooCommerce ফিচার্ড পণ্য? (DTE)"
+
+#: includes/class-dynatafo-admin-notice-manager.php:188
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-dynatafo-admin-notice-manager.php:290
+msgid "Forbidden"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:65 includes/class-dynatafo-admin.php:66
+msgid "Dynamic Tags"
+msgstr "ডাইনামিক ট্যাগস"
+
+#: includes/class-dynatafo-admin.php:76 includes/class-dynatafo-admin.php:77
+#: includes/class-dynatafo-admin.php:161 includes/class-dynatafo-admin.php:184
+msgid "Tag Directory"
+msgstr "ট্যাগ ডিরেক্টরি"
+
+#: includes/class-dynatafo-admin.php:85 includes/class-dynatafo-admin.php:86
+#: includes/class-dynatafo-admin.php:199
+msgid "Other Plugins"
+msgstr "অন্যান্য প্লাগইন"
+
+#: includes/class-dynatafo-admin.php:94 includes/class-dynatafo-admin.php:95
+#: includes/class-dynatafo-admin.php:266
+msgid "Settings"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:119
+msgid "Dynamic Tags for Elementor Icon"
+msgstr "Dynamic Tags for Elementor আইকন"
+
+#: includes/class-dynatafo-admin.php:120
+msgid "Welcome to Dynamic Tags for Elementor!"
+msgstr "Dynamic Tags for Elementor-এ স্বাগতম!"
+
+#: includes/class-dynatafo-admin.php:123
+msgid "Dynamic Tags for Elementor Banner"
+msgstr "Dynamic Tags for Elementor ব্যানার"
+
+#: includes/class-dynatafo-admin.php:124
+msgid ""
+"Congratulations! You have successfully enabled dynamic content for Elementor "
+"Free."
+msgstr ""
+"অভিনন্দন! আপনি সফলভাবে Elementor Free-এর জন্য ডাইনামিক কনটেন্ট সক্রিয় করেছেন।"
+
+#: includes/class-dynatafo-admin.php:131
+msgid "Quick Start"
+msgstr "দ্রুত শুরু"
+
+#: includes/class-dynatafo-admin.php:133
+msgid "Edit any Elementor widget field that supports Dynamic Tags."
+msgstr "যে কোনো Elementor উইজেট ফিল্ড এডিট করুন যা Dynamic Tags সমর্থন করে।"
+
+#: includes/class-dynatafo-admin.php:134
+msgid "Click the Dynamic Tags icon next to the field."
+msgstr "ফিল্ডের পাশের Dynamic Tags আইকনে ক্লিক করুন।"
+
+#: includes/class-dynatafo-admin.php:135
+msgid "Pick a tag from the DTE groups and configure options if available."
+msgstr "DTE গ্রুপ থেকে একটি ট্যাগ বেছে নিন এবং অপশন থাকলে কনফিগার করুন।"
+
+#: includes/class-dynatafo-admin.php:140
+msgid "Dependency Status"
+msgstr "ডিপেনডেন্সি স্ট্যাটাস"
+
+#: includes/class-dynatafo-admin.php:142
+msgid "Elementor Pro:"
+msgstr "Elementor Pro:"
+
+#: includes/class-dynatafo-admin.php:143 includes/class-dynatafo-admin.php:147
+#: includes/class-dynatafo-admin.php:151
+msgid "Detected"
+msgstr "সনাক্ত হয়েছে"
+
+#: includes/class-dynatafo-admin.php:143 includes/class-dynatafo-admin.php:147
+#: includes/class-dynatafo-admin.php:151
+msgid "Not Detected"
+msgstr "সনাক্ত হয়নি"
+
+#: includes/class-dynatafo-admin.php:146
+msgid "Advanced Custom Fields (ACF):"
+msgstr "Advanced Custom Fields (ACF):"
+
+#: includes/class-dynatafo-admin.php:150
+msgid "WooCommerce:"
+msgstr "WooCommerce:"
+
+#: includes/class-dynatafo-admin.php:162
+msgid ""
+"Use this as a quick reference for available dynamic tags and where to use "
+"them."
+msgstr ""
+"উপলব্ধ ডাইনামিক ট্যাগ এবং সেগুলো কোথায় ব্যবহার করবেন তার দ্রুত রেফারেন্স হিসেবে এটি "
+"ব্যবহার করুন।"
+
+#: includes/class-dynatafo-admin.php:167
+msgid "System Status (Logged on Activation)"
+msgstr "সিস্টেম স্ট্যাটাস (অ্যাক্টিভেশনে লগ হয়েছে)"
+
+#: includes/class-dynatafo-admin.php:200
+msgid ""
+"Discover other plugins from the same author and install them in one click."
+msgstr "একই লেখকের অন্যান্য প্লাগইন দেখুন এবং এক ক্লিকে ইনস্টল করুন।"
+
+#: includes/class-dynatafo-admin.php:204
+msgid ""
+"No plugins found in the list. Add plugin entries in includes/other-"
+"plugins.json."
+msgstr ""
+"তালিকায় কোনো প্লাগইন পাওয়া যায়নি। includes/other-plugins.json-এ প্লাগইন এন্ট্রি "
+"যোগ করুন।"
+
+#: includes/class-dynatafo-admin.php:224
+msgid "By"
+msgstr "নির্মাতা"
+
+#: includes/class-dynatafo-admin.php:235
+msgid "More Details"
+msgstr "বিস্তারিত"
+
+#: includes/class-dynatafo-admin.php:246
+msgid "Last Updated:"
+msgstr "সর্বশেষ আপডেট:"
+
+#: includes/class-dynatafo-admin.php:271
+msgid "Plugin Version Management"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:272
+#, fuzzy
+msgid "Current Version:"
+msgstr "বর্তমান ব্যবহারকারী"
+
+#: includes/class-dynatafo-admin.php:282
+msgid "Select Version"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:286
+msgid "-- Choose a version to rollback --"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:291
+#, fuzzy
+msgid "Current"
+msgstr "বর্তমান ব্যবহারকারী"
+
+#: includes/class-dynatafo-admin.php:298
+msgid "Select a version to rollback to. Click \"Apply Version\" to proceed."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:304
+msgid "No previous versions available for rollback."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:314
+msgid "Apply Version"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:331
+msgid "Please select a version first."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:335
+msgid "Are you sure you want to rollback to version"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:343
+msgid "Processing rollback..."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:355
+msgid "Rollback successful! Reloading page..."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:362
+msgid "Rollback failed:"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:399
+msgid "See changelog"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:415
+msgid "Security check failed"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:419
+msgid "Insufficient permissions"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:426
+msgid "Invalid version format"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:436
+#, fuzzy
+msgid "Rollback completed successfully"
+msgstr "ট্যাগ সফলভাবে মুছে ফেলা হয়েছে!"
+
+#. translators: Version being rolled back to
+#: includes/class-dynatafo-admin.php:458
+#, php-format
+msgid "Successfully prepared rollback to version %s"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:557
+msgid "Get the Pro version of this plugin to unlock premium features."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:558
+msgid "Install this plugin from wordpress.org plugin directory."
+msgstr "wordpress.org প্লাগইন ডিরেক্টরি থেকে এই প্লাগইন ইনস্টল করুন।"
+
+#: includes/class-dynatafo-admin.php:572
+msgid "N/A"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:574
+msgid "Rating: N/A"
+msgstr "রেটিং: প্রযোজ্য নয়"
+
+#. translators: 1: Plugin rating out of 5, 2: Number of ratings.
+#: includes/class-dynatafo-admin.php:579
+#, php-format
+msgid "Rating: %1$s/5 (%2$s)"
+msgstr "রেটিং: %1$s/5 (%2$s)"
+
+#: includes/class-dynatafo-admin.php:584
+msgid "Premium Plugin"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:587
+msgid "Active Installs: N/A"
+msgstr "সক্রিয় ইনস্টল: প্রযোজ্য নয়"
+
+#. translators: %s: Number of active installs.
+#: includes/class-dynatafo-admin.php:592
+#, php-format
+msgid "Active Installs: %s+"
+msgstr "সক্রিয় ইনস্টল: %s+"
+
+#: includes/class-dynatafo-admin.php:594
+msgid "Active Installs: Less than 10"
+msgstr "সক্রিয় ইনস্টল: ১০-এর কম"
+
+#: includes/class-dynatafo-admin.php:597
+msgid "Freemius Pro"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:696 includes/class-dynatafo-admin.php:709
+msgid "Installed"
+msgstr "ইনস্টল করা"
+
+#: includes/class-dynatafo-admin.php:706
+msgid "Activate"
+msgstr "সক্রিয় করুন"
+
+#: includes/class-dynatafo-admin.php:713
+msgid "Get Pro"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:722
+msgid "Install Now"
+msgstr "এখনই ইনস্টল করুন"
+
+#: includes/class-dynatafo-admin.php:725
+msgid "Not Allowed"
+msgstr "অনুমোদিত নয়"
+
+#: includes/class-dynatafo-admin.php:795
+msgid "No tag directory data is available right now."
+msgstr "এখন কোনো ট্যাগ ডিরেক্টরি ডেটা পাওয়া যাচ্ছে না।"
+
+#. translators: %d: Number of dynamic tags.
+#: includes/class-dynatafo-admin.php:806
+#, php-format
+msgid "%d Dynamic Tags"
+msgstr "%d ডাইনামিক ট্যাগ"
+
+#. translators: %d: Number of tag categories.
+#: includes/class-dynatafo-admin.php:812
+#, php-format
+msgid "%d Categories"
+msgstr "%d ক্যাটাগরি"
+
+#: includes/class-dynatafo-admin.php:816
+msgid "Works with Elementor Free"
+msgstr "Elementor Free-এর সাথে কাজ করে"
+
+#: includes/class-dynatafo-admin.php:827
+msgid "Search tags... (or press / to focus)"
+msgstr "ট্যাগ খুঁজুন... (ফোকাস করতে / চাপুন)"
+
+#: includes/class-dynatafo-admin.php:832
+msgid "Tag categories"
+msgstr "ট্যাগ ক্যাটাগরি"
+
+#: includes/class-dynatafo-admin.php:834
+msgid "All"
+msgstr "সব"
+
+#: includes/class-dynatafo-admin.php:849
+msgid "Tag"
+msgstr "ট্যাগ"
+
+#: includes/class-dynatafo-admin.php:851
+msgid "Field Type"
+msgstr "ফিল্ড টাইপ"
+
+#: includes/class-dynatafo-admin.php:852
+msgid "Slug"
+msgstr "স্লাগ"
+
+#: includes/class-dynatafo-admin.php:853
+msgid "Notes"
+msgstr "নোট"
+
+#: includes/class-dynatafo-admin.php:876
+msgid "No tags match your search/filter."
+msgstr "আপনার সার্চ/ফিল্টারের সাথে কোনো ট্যাগ মেলেনি।"
+
+#: includes/class-dynatafo-admin.php:932
+msgid "Tag directory JSON was not found and no cached fallback is available."
+msgstr "Tag directory JSON পাওয়া যায়নি এবং কোনো ক্যাশ ফ্যালব্যাকও নেই।"
+
+#: includes/class-dynatafo-admin.php:941
+msgid "Tag directory JSON is invalid and no cached fallback is available."
+msgstr "Tag directory JSON অবৈধ এবং কোনো ক্যাশ ফ্যালব্যাকও নেই।"
+
+#: includes/class-dynatafo-admin.php:1002
+msgid ""
+"Tag directory JSON has no usable tag entries and no cached fallback is "
+"available."
+msgstr ""
+"Tag directory JSON-এ ব্যবহারযোগ্য ট্যাগ এন্ট্রি নেই এবং কোনো ক্যাশ ফ্যালব্যাকও নেই।"
+
+#: includes/class-dynatafo-loader.php:114
+msgid "Post (DTE)"
+msgstr "পোস্ট (DTE)"
+
+#: includes/class-dynatafo-loader.php:115
+msgid "Archive (DTE)"
+msgstr "আর্কাইভ (DTE)"
+
+#: includes/class-dynatafo-loader.php:116
+msgid "Site (DTE)"
+msgstr "সাইট (DTE)"
+
+#: includes/class-dynatafo-loader.php:117
+msgid "Media (DTE)"
+msgstr "মিডিয়া (DTE)"
+
+#: includes/class-dynatafo-loader.php:118
+msgid "Author (DTE)"
+msgstr "লেখক (DTE)"
+
+#: includes/class-dynatafo-loader.php:119
+#, fuzzy
+msgid "Comments (DTE)"
+msgstr "কুকিজ (DTE)"
+
+#: includes/class-dynatafo-loader.php:120
+msgid "Taxonomy (DTE)"
+msgstr "ট্যাক্সোনমি (DTE)"
+
+#: includes/class-dynatafo-loader.php:124
+#, fuzzy
+msgid "Actions (DTE)"
+msgstr "লেখক (DTE)"
+
+#: includes/class-dynatafo-loader.php:128
+msgid "ACF (DTE)"
+msgstr "ACF (DTE)"
+
+#: includes/class-dynatafo-loader.php:132
+#, fuzzy
+msgid "SCF (DTE)"
+msgstr "ACF (DTE)"
+
+#: includes/class-dynatafo-loader.php:136
+msgid "WooCommerce (DTE)"
+msgstr "WooCommerce (DTE)"
+
+#: includes/functions.php:7
+msgid "Info"
+msgstr "তথ্য"
+
+#: includes/notices/pro-released-notice.php:11
+#, fuzzy
+msgid "Dynamic Tags for Elementor Pro Release Spotlight"
+msgstr "Dynamic Tags for Elementor ব্যানার"
+
+#: includes/notices/pro-released-notice.php:18
+#, fuzzy
+msgid "Dynamic Tags for Elementor Pro is Now Available!"
+msgstr "Dynamic Tags for Elementor ব্যানার"
+
+#: includes/notices/pro-released-notice.php:20
+msgid ""
+"Take your Elementor designs to the next level. The Pro version is officially "
+"released and ready! Get access to all premium WooCommerce, ACF Pro, and SCF "
+"Pro dynamic tags with priority support."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:23
+#, fuzzy
+msgid "WooCommerce Pro Tags"
+msgstr "WooCommerce (DTE)"
+
+#: includes/notices/pro-released-notice.php:23
+msgid "Add-to-cart, SKU, rating, prices, galleries, and custom product fields."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:24
+msgid "ACF & SCF Pro Tags"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:24
+msgid "Repeater, Gallery, Relationship, Google Map, Date Time, and more."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:25
+msgid "Priority Email Support"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:25
+msgid "Get direct email assistance from our dedicated core team."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:29
+msgid "GOLD PLAN"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:30
+msgid "Save up to 12% on Yearly Pricing!"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:32
+msgid "Normally $3.12 / mo"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:34
+msgid "/ mo"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:36
+msgid "Billed Annually ($33 / Year)"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:37
+msgid "Upgrade Now"
+msgstr ""
+
+#. translators: %s: Plugin version number
+#: includes/notices/version-updated-notice.php:13
+#, fuzzy, php-format
+msgid "Dynamic Tags for Elementor %s is live now"
+msgstr "Dynamic Tags for Elementor আইকন"
+
+#. translators: %s: Plugin version number
+#: includes/notices/version-updated-notice.php:18
+#, php-format
+msgid "Version %s has been released successfully."
+msgstr ""
+
+#. translators: %s: Plugin version number
+#: includes/notices/whats-new-notice.php:13
+#, php-format
+msgid "What's New in v%s"
+msgstr ""
+
+#. translators: %s: Plugin version number
+#: includes/notices/whats-new-notice.php:18
+#, php-format
+msgid "What’s new in v%s"
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:26
+msgid "Updated administrative interface and layout rendering."
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:27
+msgid "Applied security patches and hardened admin data validation."
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:32
+msgid ""
+"Tested and verified compatibility with the latest versions of Elementor and "
+"Elementor Pro."
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:36
+msgid "All changes are fully backward compatible!"
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:37
+msgid "Thank you for using Dynamic Tags for Elementor — enjoy the update."
+msgstr ""
+
+#~ msgid "Unknown"
+#~ msgstr "অজানা"
+
+#~ msgid "Tag directory JSON was not found. Showing cached tag data."
+#~ msgstr "Tag directory JSON পাওয়া যায়নি। ক্যাশ করা ট্যাগ ডেটা দেখানো হচ্ছে।"
+
+#~ msgid "Tag directory JSON is invalid. Showing cached tag data."
+#~ msgstr "Tag directory JSON অবৈধ। ক্যাশ করা ট্যাগ ডেটা দেখানো হচ্ছে।"
+
+#~ msgid ""
+#~ "Tag directory JSON has no usable tag entries. Showing cached tag data."
+#~ msgstr ""
+#~ "Tag directory JSON-এ ব্যবহারযোগ্য ট্যাগ এন্ট্রি নেই। ক্যাশ করা ট্যাগ ডেটা দেখানো "
+#~ "হচ্ছে।"
+
+#~ msgid "Manage Tags"
+#~ msgstr "ট্যাগ ম্যানেজ করুন"
+
+#~ msgid "Welcome to Dynamic Tags!"
+#~ msgstr "ডাইনামিক ট্যাগসে স্বাগতম!"
+
+#~ msgid "You have successfully enabled dynamic content for Elementor Free."
+#~ msgstr "আপনি সফলভাবে Elementor Free-এর জন্য ডাইনামিক কনটেন্ট চালু করেছেন।"
+
+#~ msgid "Create Your First Custom Tag"
+#~ msgstr "আপনার প্রথম কাস্টম ট্যাগ তৈরি করুন"
+
+#~ msgid "Manage Custom Tags"
+#~ msgstr "কাস্টম ট্যাগ ম্যানেজ করুন"
+
+#~ msgid "Tag added successfully!"
+#~ msgstr "ট্যাগ সফলভাবে যোগ করা হয়েছে!"
+
+#~ msgid "Add New Dynamic Tag"
+#~ msgstr "নতুন ডাইনামিক ট্যাগ যোগ করুন"
+
+#~ msgid "Tag Label"
+#~ msgstr "ট্যাগ লেবেল"
+
+#~ msgid "Tag Output Value"
+#~ msgstr "ট্যাগ আউটপুট মান"
+
+#~ msgid "Existing Custom Tags"
+#~ msgstr "বিদ্যমান কাস্টম ট্যাগসমূহ"
+
+#~ msgid "Label"
+#~ msgstr "লেবেল"
+
+#~ msgid "No custom tags created yet."
+#~ msgstr "এখনো কোনো কাস্টম ট্যাগ তৈরি করা হয়নি।"
+
+#~ msgid "Delete"
+#~ msgstr "মুছুন"
+
+#~ msgid "Custom Dynamic Tags"
+#~ msgstr "কাস্টম ডাইনামিক ট্যাগস"

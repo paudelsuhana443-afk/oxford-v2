@@ -1,0 +1,8 @@
+{
+    "config": {
+        "autoloader-suffix": "DynatafoFree"
+    },
+    "require": {
+        "freemius/wordpress-sdk": "^2.13"
+    }
+}

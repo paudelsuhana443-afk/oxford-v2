@@ -1,0 +1,308 @@
+= 1.4.5 =
+* Compatibility: Synced compatibility and version alignment with Dynamic Tags for Elementor Pro v1.4.5.
+* Update: Bumped plugin version to 1.4.5.
+
+= 1.4.4 =
+* Feature: Added PublishPress Authors Pro integration – 8 new dynamic tags for PublishPress Authors with support for Multiple Authors, Guest Authors, and author archives (available in Pro version).
+* Compatibility: Synced compatibility and version alignment with Dynamic Tags for Elementor Pro v1.4.4.
+* Update: Bumped plugin version to 1.4.4.
+
+= 1.4.3 =
+* Compatibility: Verified compatibility with Elementor 4.2.4, Elementor Pro 4.2.3, and WordPress 7.1.
+* Feature: Added Magic Copy for Elementor Pro to the Other Plugins ecosystem.
+* Update: Bumped plugin version to 1.4.3.
+
+= 1.4.2 =
+* Compatibility: Verified compatibility with Elementor 4.2.3, Elementor Pro 4.2.2, and WordPress 7.1.
+* Security: Updated security patch and general maintenance fixes.
+
+= 1.4.1 =
+* Performance: Optimized dynamic tag registration path in loader by using precompiled static definition maps and eliminating array_merge() calls from the hot path.
+
+= 1.4.0 =
+* Fix: Resolved PHP 8.4 TypeError crash in Elementor Editor caused by calling get_settings() in the Internal URL (DTE) tag prior to control stack initialization. Thanks @nomade23 for pointing the issue.
+
+= 1.3.9 =
+* Feature: Added EventPrime Pro integration – 15 new dynamic tags for EventPrime – Events Calendar, Bookings and Tickets Plugin by Metagauss (available in Pro version).
+* Compatibility: Elementor compatibility verified for the latest version.
+* Security: Security patch updated.
+
+= 1.3.8 =
+* Fix: The Internal URL (DTE) tag now correctly shows all public WordPress post types in the Content dropdown.
+* Update: Third-party plugin support for EventPrime – Events Calendar, Bookings and Tickets Plugin by Metagauss.
+* Update: Search and page controls in the Internal URL (DTE) tag fallback selector now correctly filter and paginate results. Thanks @pauljbrown for pointing this issue.
+* Update: UX updated.
+* Compatibility: Elementor compatibility verified for the latest version.
+* Security: Security patch updated.
+
+= 1.3.7 =
+* Fixed: Resolved post loop query context issue where dynamic tags (e.g. ACF/SCF fields) returned data from the first post for all loop items.
+* Compatibility: Verified compatibility with Elementor and Elementor Pro up to version 4.2.1.
+* Compatibility: Adjusted Tested up to header format in readme.txt to align with WordPress.org standards.
+
+= 1.3.6 =
+* Feature: Added EasyCommerce Pro (DTE) category and 28 new dynamic tags to the Tag Directory documentation and registry.
+
+= 1.3.5 =
+* Performance: Added request-scoped caching for file_exists and is_readable checks to eliminate disk I/O overhead.
+
+= 1.3.4 =
+* Feature: Added selective cache invalidation hooks on post saves, post deletions, and term edits.
+* Optimization: Added memory caching for tag directory parsed array to avoid repeated JSON decoding.
+
+= 1.3.3 =
+* Feature: Added dedicated DYNATAFO_Cache helper class.
+* Feature: Added automatic cache key versioning to prevent desync on upgrades.
+* Performance: Unified memory cache sharing across Free and Pro versions.
+
+= 1.3.2 =
+* Performance: Unified request-scoped runtime cache storage and resolved memory state desync issues.
+* Feature: Added Manfi Expense Tracker to the "Other Plugins" directory.
+* Feature: Corrected the dynamic tags pro plugin's icon and product page links.
+
+= 1.3.1 =
+* UX Updated: Improved admin review notice layout and removed shown count statistics.
+* Security Updated: Hardened and secured outputs within admin messages.
+* Pro Updated: Added full compatibility and alignment for the new Taxonomy Pro suite.
+
+= 1.3.0 =
+* Fixed: Escaped output in the admin review notice for improved security.
+* Fixed: Resolved PHP Coding Standards (WPCS/PHPCS) translation warnings by adding translators comments and reordering/formatting placeholders.
+
+= 1.2.9 =
+* Added: Support for new Post Pro category.
+* Added: Post Reading Time tag that will help to display the reading time of a post.
+* Added: Related Posts Count tag that will help to count the number of posts matching the current post's category or tag taxonomy.
+* Added: Next Post Title tag that will help to display the title of the next post in sequence.
+* Added: Previous Post Title tag that will help to display the title of the previous post in sequence.
+* Added: Next Post URL tag that will help to display the permalink URL of the next post in sequence.
+* Added: Previous Post URL tag that will help to display the permalink URL of the previous post in sequence.
+* Added: Next Post Thumbnail URL tag that will help to display the featured image URL of the next post.
+* Added: Previous Post Thumbnail URL tag that will help to display the featured image URL of the previous post.
+* Added: Post Word Count tag that will help to display the exact word count of the current post content.
+* Added: Post Character Count tag that will help to display the character count of the current post content.
+* Added: Post Revision Count tag that will help to display the total number of saved revisions for the current post.
+* Added: Post Sticky Status tag that will help to check if the post is set as sticky.
+* Added: Post Password Protected tag that will help to check if the post is password protected.
+* Added: Post Menu Order tag that will help to display the menu order value defined for the current page.
+* Added: Days Since Post Published tag that will help to calculate the number of days since the current post was published.
+* Added: Days Until Event / Date tag that will help to count down the days until a custom target date or meta date field.
+* Added: Support for new Media Pro category.
+* Added: Post Featured Image Alt Text tag that will help to display the alternative text of the featured image.
+* Added: Post Featured Image Caption tag that will help to display the caption of the featured image.
+* Added: Post Featured Image Description tag that will help to display the description of the featured image.
+* Added: Attachment File Size tag that will help to display the file size of a media attachment file.
+* Added: Attachment File Type tag that will help to display the file extension or MIME type of the media attachment.
+* Added: Attachment Dimensions tag that will help to display the width and height of the image attachment.
+* Added: Support for new Author Pro category.
+* Added: Current User First Name tag that will help to display the first name of the currently logged-in user.
+* Added: Current User Last Name tag that will help to display the last name of the currently logged-in user.
+* Added: Logged In Status tag that will help to check if the visitor is logged in.
+* Added: Current User Post Count tag that will help to display the total number of published posts by the logged-in user.
+* Added: Current User Comment Count tag that will help to display the total number of comments by the logged-in user.
+* Added: Current User Nickname tag that will help to display the nickname of the logged-in user.
+* Added: Current User Website URL tag that will help to display the website URL of the logged-in user.
+* Added: Current User Description / Bio tag that will help to display the biographical info of the logged-in user.
+* Added: Current User Meta (Generic) tag that will help to retrieve custom user meta fields of the logged-in user.
+* Added: Author Post Count tag that will help to display the total number of published posts by the post author.
+* Added: Author Registration Date tag that will help to display the registration date of the post author.
+* Added: Author Social Links tag that will help to display social profile links for the post author.
+* Added: Support for new Site Pro category.
+* Added: WordPress Version tag that will help to display the current WordPress version string.
+* Added: PHP Version tag that will help to display the current PHP version string.
+* Added: Site Admin Email tag that will help to display the administrator email address of the site.
+* Added: Site Language tag that will help to display the active site locale code.
+* Added: Site Charset tag that will help to display the site character set encoding.
+* Added: Custom Option Value tag that will help to retrieve any option value from the options table by option name.
+* Added: Theme Name tag that will help to display the name of the active theme.
+* Added: Theme Version tag that will help to display the version of the active theme.
+* Added: Child Theme Name tag that will help to display the active child theme name.
+* Added: Active Plugins Count tag that will help to display the total number of active plugins.
+* Added: Memory Usage tag that will help to display the PHP memory usage details.
+* Added: Server Time Zone tag that will help to display the site's configured timezone setting.
+* Added: Site Tagline with Fallback tag that will help to display the site tagline with a fallback option.
+
+= 1.2.8 =
+* Added: Support for new Post Pro category.
+* Added: Post Reading Time tag that will help to display the reading time of a post.
+* Added: Related Posts Count tag that will help to count the number of posts matching the current post's category or tag taxonomy.
+* Added: Next Post Title tag that will help to display the title of the next post in sequence.
+* Added: Previous Post Title tag that will help to display the title of the previous post in sequence.
+* Added: Next Post URL tag that will help to display the permalink URL of the next post in sequence.
+* Added: Previous Post URL tag that will help to display the permalink URL of the previous post in sequence.
+* Added: Next Post Thumbnail URL tag that will help to display the featured image URL of the next post.
+* Added: Previous Post Thumbnail URL tag that will help to display the featured image URL of the previous post.
+* Added: Post Word Count tag that will help to display the exact word count of the current post content.
+* Added: Post Character Count tag that will help to display the character count of the current post content.
+* Added: Post Revision Count tag that will help to display the total number of saved revisions for the current post.
+* Added: Post Sticky Status tag that will help to check if the post is set as sticky.
+* Added: Post Password Protected tag that will help to check if the post is password protected.
+* Added: Post Menu Order tag that will help to display the menu order value defined for the current page.
+* Added: Days Since Post Published tag that will help to calculate the number of days since the current post was published.
+* Added: Days Until Event / Date tag that will help to count down the days until a custom target date or meta date field.
+* Added: Support for new Media Pro category.
+* Added: Post Featured Image Alt Text tag that will help to display the alternative text of the featured image.
+* Added: Post Featured Image Caption tag that will help to display the caption of the featured image.
+* Added: Post Featured Image Description tag that will help to display the description of the featured image.
+* Added: Attachment File Size tag that will help to display the file size of a media attachment file.
+* Added: Attachment File Type tag that will help to display the file extension or MIME type of the media attachment.
+* Added: Attachment Dimensions tag that will help to display the width and height of the image attachment.
+* Added: Support for new Author Pro category.
+* Added: Current User First Name tag that will help to display the first name of the currently logged-in user.
+* Added: Current User Last Name tag that will help to display the last name of the currently logged-in user.
+* Added: Logged In Status tag that will help to check if the visitor is logged in.
+* Added: Current User Post Count tag that will help to display the total number of published posts by the logged-in user.
+* Added: Current User Comment Count tag that will help to display the total number of comments by the logged-in user.
+* Added: Current User Nickname tag that will help to display the nickname of the logged-in user.
+* Added: Current User Website URL tag that will help to display the website URL of the logged-in user.
+* Added: Current User Description / Bio tag that will help to display the biographical info of the logged-in user.
+* Added: Current User Meta (Generic) tag that will help to retrieve custom user meta fields of the logged-in user.
+* Added: Author Post Count tag that will help to display the total number of published posts by the post author.
+* Added: Author Registration Date tag that will help to display the registration date of the post author.
+* Added: Author Social Links tag that will help to display social profile links for the post author.
+* Added: Support for new Site Pro category.
+* Added: WordPress Version tag that will help to display the current WordPress version string.
+* Added: PHP Version tag that will help to display the current PHP version string.
+* Added: Site Admin Email tag that will help to display the administrator email address of the site.
+* Added: Site Language tag that will help to display the active site locale code.
+* Added: Site Charset tag that will help to display the site character set encoding.
+* Added: Custom Option Value tag that will help to retrieve any option value from the options table by option name.
+* Added: Theme Name tag that will help to display the name of the active theme.
+* Added: Theme Version tag that will help to display the version of the active theme.
+* Added: Child Theme Name tag that will help to display the active child theme name.
+* Added: Active Plugins Count tag that will help to display the total number of active plugins.
+* Added: Memory Usage tag that will help to display the PHP memory usage details.
+* Added: Server Time Zone tag that will help to display the site's configured timezone setting.
+* Added: Site Tagline with Fallback tag that will help to display the site tagline with a fallback option.
+* Enhanced: Dynamic Tag Directory category count calculation and chip hiding based on selected license filter (Free/Pro).
+* Update: UI updated for better layout spacing in the Dynamic Tag settings directory.
+* Update: UX updated with responsive category selector behavior.
+* Update: Tested compatibility and performed validation checks with latest Elementor.
+* Fixed: Performance optimizations for backend file and asset queries.
+
+
+
+
+= 1.2.7 =
+* Added: Cookie dynamic tag wildcard pattern matching and dynamic standard options.
+* Added: Taxonomy availability checks to show Post Terms/Categories/Tags only on supported post types.
+* Fixed: Profile picture dynamic tags return standard Elementor image array structures.
+* Fixed: ACF/SCF Field tags automatically extract the first image when queried with gallery data.
+* Updated: Tag Directory database descriptions with comprehensive usage guides.
+* Fixed: Resolved PHPCS warnings across several core files.
+
+= 1.2.6 =
+* Update: UI updated, security patch updated, and elementor compatibility check.
+
+= 1.2.5 =
+* Added: Support forum integration directly linking to WordPress.org support forum.
+* Added: Spotlight notice announcing the release of Dynamic Tags for Elementor Pro.
+* Enhanced: Settings page layouts, security checks, and user experience.
+
+= 1.2.4 =
+* Added: Freemius SDK integration for licensing, updates, and opt-in handling.
+* Added: Uninstall cleanup routine migrated to Freemius after_uninstall hook to clean up plugin data.
+* Fixed: Resolved concurrent plugin admin notice dismissal nonce collisions.
+* Enhanced: Tested compatibility up to Elementor 4.1.1 and Elementor Pro 4.1.0.
+
+= 1.2.3 =
+* Added: Extensible filters `dynatafo_dynamic_tag_groups` and `dynatafo_dynamic_tag_definitions` to allow seamless tag and group registration from external plugins (e.g. the upcoming Pro add-on).
+* Added: Direct registration action hooks `dynatafo_register_dynamic_tag_groups` and `dynatafo_register_dynamic_tags` for third-party dynamic tags.
+* Added: Extensible actions `dynatafo_admin_settings_before_content` and `dynatafo_admin_settings_after_content` to dynamically output content (e.g. licensing tabs) directly inside the unified settings page.
+* Enhanced: Reinforced WooCommerce, ACF, and SCF compatibility layer to operate gracefully during activation and deactivation transitions.
+* Fixed: Version notice dismissal nonce collisions under concurrent plugin setups.
+
+= 1.2.2 =
+* update: fixes dependencies with elementor latest version.
+
+= 1.2.1 =
+* update: fixes dependencies with elementor latest version.
+
+= 1.2.0 =
+* Added: Advanced caching and performance optimization system for significantly faster tag rendering.
+* Added: Request-scoped memoization for repeated field lookups (ACF, SCF) and WooCommerce product queries within single page render.
+* Added: Intelligent transient-based caching for admin-side file I/O with filemtime-based cache invalidation for tag directory and changelog parsing.
+* Added: Version-scoped admin notice manager with modular file-based notice definitions for extensible, maintainable release notifications.
+* Added: Two new dismissible admin notices: version-updated notice for release announcements and whats-new notice with feature highlights.
+* Enhanced: Improved performance for tag directory retrieval, changelog version parsing, and plugin dependency detection via persistent caching.
+* Improved: Reduced database queries and file system operations through intelligent request-scoped and persistent caching strategies.
+* Added: Comprehensive performance helpers in shared functions library for consistent caching patterns across all dynamic tags.
+* Fixed: Optimized memory usage during tag rendering by eliminating redundant field/product API calls.
+
+= 1.1.1 =
+* Added: Comprehensive WPML/Polylang multilingual support with language-aware URL filtering.
+* Added: New DYNATAFO_WPML utility class for centralized language detection and URL translation.
+* Enhanced: All URL-related tags now apply WPML's wpml_permalink and wpml_home_url filters for language-aware links (Site URL, Post URL, Archive URL, Author URL, Internal URL, Reload Page).
+* Enhanced: Current Language tag now uses centralized WPML/Polylang detection for consistency.
+* Improved: Language-specific URLs now respect WPML domain/prefix language configuration settings.
+* Fixed: Ensure translated post slugs and taxonomy term URLs are correctly output in different languages.
+* Added: Translator comments for all language-aware operations to guide translators.
+
+= 1.1.0.1 =
+* Fix: Fatal error causing with elementor pro
+
+= 1.1.0 =
+* Added: Full SCF (Secure Custom Fields) support with 13 new dynamic tags (Field, Repeater, Gallery First, Relationship First Title, Taxonomy Term, Date Formatted, True/False, Choice, File, Link URL, Link Text, Image Data, Link Attribute).
+* Added: ACF parity tags (Field, True/False, Choice, File, Link URL, Link Text, Image Data, Link Attribute) for complete ACF field type coverage.
+* Improved: Reorganized dynamic-tags folder structure into logical subdirectories (acf/, scf/, post/, archive/, site/, media/, author/, user/, actions/, comments/, taxonomy/, utils/, woocommerce/) for better code maintainability and scalability.
+* Enhanced: Free/Pro compatibility layer for robust Elementor Free and Pro coexistence.
+* Updated: All tag file paths in loader to reference new subdirectory structure.
+
+= 1.0.9.1 =
+* Updated blueprint for live preview support.
+
+= 1.0.9 =
+* Updated: Added WordPress.org Live Preview blueprint support.
+* Added: New DTE groups for Actions and Comments.
+* Added: Elementor-style parity tags including Post Time, Post ID, Page Title, Post Custom Field, Post Terms, Post Featured Image, Post Gallery, Archive Description, Archive Meta, Archive URL, Comments Number, Current Date Time, Request Parameter, Author Info, Author Meta, Author Profile Picture, User Info, and User Profile Picture.
+* Improved: Internal URL, Shortcode, Featured Image Data, Contact URL, Reload Page, Lightbox, and Off-Canvas behaviors to better match Elementor tag UX.
+* Updated: Admin Tag Directory data and documentation references.
+
+= 1.0.8 =
+* Updated: Support with latest elementor version  3.35.7
+* Added full internationalization (i18n) support 
+* Added Bangla (bn_BD), Spanish (es_ES), and German (de_DE) translation files
+
+= 1.0.7 =
+* Added Post/Query tags: Post Thumbnail URL, Post Categories List, Post Tags List, Post Modified Date, Post Comment Count, and Query String Parameter.
+* Updated loader/admin tag mappings and documentation lists to reflect new Taxonomy and Author coverage.
+
+= 1.0.6 =
+* Added Taxonomy (DTE) tags: Current Term Name, Current Term Description, and Current Term Image.
+* Expanded Author (DTE) with Current User ID, Current User Display Name, Current User Email, and Current User Registration Date.
+* Updated tag registration and admin tag directory mappings for the new Taxonomy and Author coverage.
+
+= 1.0.5 =
+* Added ACF (DTE) group tag coverage with: ACF Gallery First Image, ACF Relationship First Post Title, ACF Taxonomy Term Name, and ACF Date Picker Formatted.
+* Kept ACF Repeater under ACF group and updated tag directory/reference mappings.
+* Included additional Plugin Check-related hardening in recently updated files.
+* Added: Added other plugin submenu page for plugin admin settings.
+
+= 1.0.4.1 =
+* Changed: remove unwanted text file form plugin before deploy.
+
+= 1.0.4 =
+* Added dedicated WooCommerce (DTE) group in the dynamic tags picker.
+* Added WooCommerce tags: Product Price, Product Sale Price, Product SKU, Product Stock Status, Product Categories, Product Rating, and Product Add To Cart URL.
+* Updated admin Tag Directory and internal tag reference list with WooCommerce entries.
+* Improved Plugin Check compatibility with extra sanitization, escaping, and query-handling refinements.
+
+= 1.0.3 =
+* Added 4 new post tags: Post Content, Post Parent, Post Status, and Post Type.
+* Added many utility/context tags from the extended set (cookies, session, server vars, current URL/language, user capability/role, condition checks, query count, widget content, Woo featured, ACF repeater).
+* Improved plugin admin page with Quick Start, Dependency Status, full Tag Directory, and live tag search/filter.
+* Expanded plugin readme with updated features, grouped tag listing, usage docs, dependencies, and FAQ.
+* Added/registered Site URL, Site Logo, and Site Icon tags for URL/media use-cases in Elementor.
+* Fixed Plugin Check warnings for output escaping, sanitization/unslashing of server input, and prepared SQL handling.
+* Removed direct DB query in Widget Content controls and replaced with WordPress API + object cache.
+* Added targeted PHPCS ignore for core `the_content` hook naming warning.
+
+= 1.0.2 =
+* Added many new DTE tags across Post, Site, Media, and Author groups.
+* Added Site URL, Site Logo, and Site Icon tags.
+* Added utility and condition tags (context checks, server/session/cookie/user capability, etc.).
+* Added admin Tag Directory with grouped references and dependency status.
+
+= 1.0.0 =
+* Initial release.
+* Added a suite of 9 standard dynamic tags.

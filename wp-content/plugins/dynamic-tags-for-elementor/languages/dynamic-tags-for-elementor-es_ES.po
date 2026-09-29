@@ -1,0 +1,1803 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dynamic Tags for Elementor 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dynamic-tags-for-"
+"elementor\n"
+"POT-Creation-Date: 2026-06-19T19:13:24+00:00\n"
+"PO-Revision-Date: 2026-03-14 00:00+0000\n"
+"Last-Translator: Auto Generated\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GitHub Copilot\n"
+"X-Domain: dynamic-tags-for-elementor\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: dynamic-tags-for-elementor.php
+msgid "Dynamic Tags for Elementor"
+msgstr "Etiquetas Dinamicas para Elementor"
+
+#. Description of the plugin
+#: dynamic-tags-for-elementor.php
+msgid ""
+"Enables dynamic tag functionality for the free version of Elementor and "
+"allows creating custom tags."
+msgstr ""
+"Habilita la funcionalidad de etiquetas dinamicas para la version gratuita de "
+"Elementor y permite crear etiquetas personalizadas."
+
+#. Author of the plugin
+#: dynamic-tags-for-elementor.php
+msgid "Md Mustafa Kamal Hossain"
+msgstr "Md Mustafa Kamal Hossain"
+
+#: dynamic-tags-for-elementor.php:139
+msgid ""
+"Dynamic Tags for Elementor requires Elementor to be installed and active."
+msgstr ""
+"Dynamic Tags for Elementor requiere que Elementor este instalado y activo."
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:9
+#, fuzzy
+msgid "ACF Choice (DTE)"
+msgstr "ACF (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:17
+#, fuzzy
+msgid "Field Name"
+msgstr "Nombre del Subcampo"
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:27
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:27
+#: dynamic-tags/post/class-dynatafo-post-parent.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:27
+msgid "Output"
+msgstr "Salida"
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:31
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:31
+msgid "Label (fallback to Value)"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:32
+msgid "Value"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:33
+msgid "Raw JSON"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-choice.php:41
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:52
+#: dynamic-tags/post/class-dynatafo-post-categories.php:15
+#: dynamic-tags/post/class-dynatafo-post-tags.php:15
+#: dynamic-tags/post/class-dynatafo-post-terms.php:28
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:41
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:52
+#: dynamic-tags/user/class-dynatafo-user-role.php:37
+msgid "Separator"
+msgstr "Separador"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:9
+msgid "ACF Date Picker Formatted (DTE)"
+msgstr "ACF Selector de Fecha Formateado (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:17
+msgid "Date Field Name"
+msgstr "Nombre del Campo de Fecha"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:27
+#: dynamic-tags/post/class-dynatafo-post-date.php:15
+#: dynamic-tags/post/class-dynatafo-post-modified-date.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:27
+#: dynamic-tags/user/class-dynatafo-current-user-reg-date.php:15
+msgid "Date Format"
+msgstr "Formato de Fecha"
+
+#: dynamic-tags/acf/class-dynatafo-acf-date-formatted.php:31
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:31
+msgid "Use PHP date format, e.g. F j, Y"
+msgstr "Usa el formato de fecha PHP, p.ej. F j, Y"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:9
+#, fuzzy
+msgid "ACF Field (DTE)"
+msgstr "ACF (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:27
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:37
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:37
+msgid "Output Format"
+msgstr "Formato de Salida"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:31
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:41
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:31
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:41
+msgid "Text"
+msgstr "Texto"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:32
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:31
+#: dynamic-tags/author/class-dynatafo-author-url.php:20
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:20
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:31
+msgid "URL"
+msgstr "URL"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:33
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:44
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:44
+msgid "Image URL"
+msgstr "URL de la Imagen"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:34
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:34
+#, fuzzy
+msgid "Image Data"
+msgstr "Clave Meta de la Imagen"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:35
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:35
+#, fuzzy
+msgid "ID"
+msgstr "IDs"
+
+#: dynamic-tags/acf/class-dynatafo-acf-field.php:36
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:36
+msgid "Raw"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:9
+#, fuzzy
+msgid "ACF File (DTE)"
+msgstr "ACF (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:32
+msgid "Attachment ID"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:33
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:31
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:129
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:19
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:31
+#, fuzzy
+msgid "Title"
+msgstr "Titulo del Post"
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:34
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:34
+msgid "Filename"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-file.php:35
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:35
+msgid "MIME Type"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-gallery-first.php:9
+msgid "ACF Gallery First Image (DTE)"
+msgstr "ACF Primera Imagen de Galeria (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-gallery-first.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-gallery-first.php:17
+msgid "Gallery Field Name"
+msgstr "Nombre del Campo de Galeria"
+
+#: dynamic-tags/acf/class-dynatafo-acf-image-data.php:9
+#, fuzzy
+msgid "ACF Image Data (DTE)"
+msgstr "ACF Repetidor (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-image-data.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-image-data.php:17
+#, fuzzy
+msgid "Image Field Name"
+msgstr "Nombre del Campo de Fecha"
+
+#: dynamic-tags/acf/class-dynatafo-acf-image-data.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-image-data.php:27
+msgid "Allow First Gallery Item"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:9
+msgid "ACF Link Attribute (DTE)"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-link-text.php:17
+#: dynamic-tags/acf/class-dynatafo-acf-link-url.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-link-text.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-link-url.php:17
+#, fuzzy
+msgid "Link Field Name"
+msgstr "Nombre del Subcampo"
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:27
+msgid "Attribute"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:32
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:32
+msgid "Target"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-attribute.php:33
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:33
+msgid "Rel"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-text.php:9
+#, fuzzy
+msgid "ACF Link Text (DTE)"
+msgstr "ACF Repetidor (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-text.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-link-text.php:27
+msgid "Fallback To URL"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-url.php:9
+#, fuzzy
+msgid "ACF Link URL (DTE)"
+msgstr "URL del Sitio (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-link-url.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-link-url.php:27
+msgid "Use Raw URL If Text"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-relationship-first-title.php:9
+msgid "ACF Relationship First Post Title (DTE)"
+msgstr "ACF Titulo del Primer Post Relacionado (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-relationship-first-title.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-relationship-first-title.php:17
+msgid "Relationship Field Name"
+msgstr "Nombre del Campo de Relacion"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:9
+msgid "ACF Repeater (DTE)"
+msgstr "ACF Repetidor (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:17
+msgid "Repeater Field Name"
+msgstr "Nombre del Campo Repetidor"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:27
+msgid "Sub Field Name"
+msgstr "Nombre del Subcampo"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:42
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:42
+msgid "URLs"
+msgstr "URLs"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:43
+#: dynamic-tags/post/class-dynatafo-is-post-in-list.php:15
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:43
+msgid "IDs"
+msgstr "IDs"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:61
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:61
+msgid "Max Rows"
+msgstr "Filas Maximas"
+
+#: dynamic-tags/acf/class-dynatafo-acf-repeater.php:70
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:70
+msgid "Row Offset"
+msgstr "Desplazamiento de Fila"
+
+#: dynamic-tags/acf/class-dynatafo-acf-taxonomy-term.php:9
+msgid "ACF Taxonomy Term Name (DTE)"
+msgstr "ACF Nombre de Termino de Taxonomia (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-taxonomy-term.php:17
+#: dynamic-tags/scf/class-dynatafo-scf-taxonomy-term.php:17
+msgid "Taxonomy Field Name"
+msgstr "Nombre del Campo de Taxonomia"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:9
+#, fuzzy
+msgid "ACF True/False (DTE)"
+msgstr "ACF Repetidor (DTE)"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:27
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:27
+#, fuzzy
+msgid "True Output"
+msgstr "Salida"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:29
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:29
+msgid "Yes"
+msgstr ""
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:37
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:37
+#, fuzzy
+msgid "False Output"
+msgstr "Salida"
+
+#: dynamic-tags/acf/class-dynatafo-acf-true-false.php:39
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:39
+msgid "No"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:7
+#, fuzzy
+msgid "Contact URL (DTE)"
+msgstr "URL de la Entrada (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:15
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:219
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:15
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:15
+msgid "Type"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:19
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:36
+#: dynamic-tags/author/class-dynatafo-author-info.php:21
+#: dynamic-tags/user/class-dynatafo-user-info.php:20
+msgid "Email"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:20
+msgid "Tel"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:21
+msgid "SMS"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:22
+msgid "WhatsApp"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:23
+msgid "Messenger"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:24
+msgid "Viber"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:25
+msgid "Waze"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:26
+msgid "Google Calendar"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:27
+msgid "Outlook Calendar"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:28
+msgid "Yahoo Calendar"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:49
+msgid "Subject"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:61
+msgid "Message"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:72
+msgid "Number"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:85
+#, fuzzy
+msgid "Username"
+msgstr "Usuario"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:97
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:15
+#, fuzzy
+msgid "Action"
+msgstr "Acciones"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:101
+msgid "Contact"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:102
+msgid "Add"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:113
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:148
+#, fuzzy
+msgid "Location"
+msgstr "Acciones"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:139
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:22
+msgid "Description"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:158
+#, fuzzy
+msgid "Start"
+msgstr "Inicio Rapido"
+
+#: dynamic-tags/actions/class-dynatafo-contact-url.php:167
+msgid "End"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-current-url.php:7
+msgid "Current URL (DTE)"
+msgstr "URL Actual (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:17
+#, fuzzy
+msgid "Internal URL (DTE)"
+msgstr "URL del Sitio (DTE)"
+
+#. translators: 1: Current pagination page number, 2: Total number of pages.
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:50
+#, php-format
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:74
+#, fuzzy
+msgid "(no title)"
+msgstr "Titulo del Post"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:149
+msgid "(untitled media)"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:223
+msgid "Content"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:224
+#: dynamic-tags/post/class-dynatafo-post-terms.php:15
+#, fuzzy
+msgid "Taxonomy"
+msgstr "Taxonomia (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:225
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:34
+#, fuzzy
+msgid "Media"
+msgstr "Medios (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:226
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:21
+msgid "Author"
+msgstr "Autor"
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:234
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:304
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:370
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:436
+msgid "Search & Select"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:249
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:319
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:385
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:451
+msgid "Search"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:252
+msgid "Filter results by title or slug, then reopen the selector."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:262
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:332
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:398
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:464
+msgid "Page"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:322
+msgid "Filter terms by name or slug, then reopen the selector."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:388
+msgid "Filter media by title or slug, then reopen the selector."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-internal-url.php:454
+msgid "Filter authors by name, nicename, login, or email."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:7
+#, fuzzy
+msgid "Lightbox (DTE)"
+msgstr "Sitio (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:20
+msgid "Video"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:24
+#, fuzzy
+msgid "Image"
+msgstr "URL de la Imagen"
+
+#: dynamic-tags/actions/class-dynatafo-lightbox-url.php:45
+msgid "Video URL"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:7
+msgid "Off-Canvas (DTE)"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:19
+msgid "Open Off-Canvas"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:20
+msgid "Close Off-Canvas"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:21
+msgid "Toggle Off-Canvas"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:29
+msgid "Off-Canvas ID"
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-off-canvas-url.php:33
+msgid "Widget/container ID used by your off-canvas panel."
+msgstr ""
+
+#: dynamic-tags/actions/class-dynatafo-reload-page-url.php:11
+#, fuzzy
+msgid "Reload Page (DTE)"
+msgstr "Imagen Destacada (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-shortcode-url.php:7
+#, fuzzy
+msgid "Shortcode (DTE)"
+msgstr "Sitio (DTE)"
+
+#: dynamic-tags/actions/class-dynatafo-shortcode-url.php:15
+#, fuzzy
+msgid "Shortcode"
+msgstr "Valor/Shortcode"
+
+#: dynamic-tags/actions/class-dynatafo-shortcode-url.php:19
+msgid ""
+"Enter any shortcode. Its rendered output will be used as the dynamic value."
+msgstr ""
+
+#: dynamic-tags/archive/class-dynatafo-archive-description.php:7
+#, fuzzy
+msgid "Archive Description (DTE)"
+msgstr "Descripcion del Termino Actual (DTE)"
+
+#: dynamic-tags/archive/class-dynatafo-archive-meta.php:7
+#, fuzzy
+msgid "Archive Meta (DTE)"
+msgstr "Archivo (DTE)"
+
+#: dynamic-tags/archive/class-dynatafo-archive-meta.php:15
+#, fuzzy
+msgid "Term Meta Key"
+msgstr "Clave Meta de la Imagen"
+
+#: dynamic-tags/archive/class-dynatafo-archive-meta.php:18
+msgid ""
+"Used for taxonomy archives. Leave empty to show a default archive summary."
+msgstr ""
+
+#: dynamic-tags/archive/class-dynatafo-archive-title.php:7
+msgid "Archive Title (DTE)"
+msgstr "Titulo del Archivo (DTE)"
+
+#: dynamic-tags/archive/class-dynatafo-archive-url.php:11
+#, fuzzy
+msgid "Archive URL (DTE)"
+msgstr "Archivo (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:7
+#, fuzzy
+msgid "Author Info (DTE)"
+msgstr "Autor (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:15
+#: dynamic-tags/user/class-dynatafo-user-info.php:15
+#, fuzzy
+msgid "Field"
+msgstr "Tipo de Campo"
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:19
+#: dynamic-tags/user/class-dynatafo-user-info.php:19
+msgid "Display Name"
+msgstr ""
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:20
+msgid "Bio"
+msgstr ""
+
+#: dynamic-tags/author/class-dynatafo-author-info.php:22
+#: dynamic-tags/user/class-dynatafo-user-info.php:21
+msgid "Website"
+msgstr ""
+
+#: dynamic-tags/author/class-dynatafo-author-meta.php:7
+#, fuzzy
+msgid "Author Meta (DTE)"
+msgstr "Autor (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-meta.php:15
+#, fuzzy
+msgid "Meta Key"
+msgstr "Clave Meta de la Imagen"
+
+#: dynamic-tags/author/class-dynatafo-author-name.php:6
+msgid "Author Name (DTE)"
+msgstr "Nombre del Autor (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-profile-picture.php:7
+#, fuzzy
+msgid "Author Profile Picture (DTE)"
+msgstr "Nombre del Autor (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-url.php:11
+#, fuzzy
+msgid "Author URL (DTE)"
+msgstr "Autor (DTE)"
+
+#: dynamic-tags/author/class-dynatafo-author-url.php:24
+#, fuzzy
+msgid "Author Archive"
+msgstr "Autor o Usuario"
+
+#: dynamic-tags/author/class-dynatafo-author-url.php:25
+#, fuzzy
+msgid "Author Website"
+msgstr "Autor o Usuario"
+
+#: dynamic-tags/comments/class-dynatafo-are-comments-allowed.php:7
+msgid "Are Comments Allowed (DTE)"
+msgstr "Comentarios Permitidos? (DTE)"
+
+#: dynamic-tags/comments/class-dynatafo-comments-number.php:7
+#, fuzzy
+msgid "Comments Number (DTE)"
+msgstr "Comentarios Permitidos? (DTE)"
+
+#: dynamic-tags/comments/class-dynatafo-comments-url.php:7
+#, fuzzy
+msgid "Comments URL (DTE)"
+msgstr "URL Actual (DTE)"
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:7
+#, fuzzy
+msgid "Featured Image Data (DTE)"
+msgstr "Imagen Destacada (DTE)"
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:15
+msgid "Data"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:20
+#, fuzzy
+msgid "Alt"
+msgstr "Todas"
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:21
+msgid "Caption"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:23
+msgid "File URL"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image-data.php:24
+msgid "Attachment URL"
+msgstr ""
+
+#: dynamic-tags/media/class-dynatafo-featured-image.php:7
+msgid "Featured Image (DTE)"
+msgstr "Imagen Destacada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-404.php:7
+msgid "Is 404 (DTE)"
+msgstr "Es 404? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-author-of-post.php:7
+msgid "Is Current User Author Of Post (DTE)"
+msgstr "El Usuario Actual es Autor del Post? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-feed.php:7
+msgid "Is Feed (DTE)"
+msgstr "Es Feed? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-frontpage.php:7
+msgid "Is Front Page (DTE)"
+msgstr "Es la Portada? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-home.php:7
+msgid "Is Home (DTE)"
+msgstr "Es la Pagina de Inicio? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-post-in-category.php:7
+msgid "Is Post In Category (DTE)"
+msgstr "El Post Esta en la Categoria? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-post-in-category.php:15
+#: dynamic-tags/post/class-dynatafo-post-terms.php:19
+msgid "Categories"
+msgstr "Categorias"
+
+#: dynamic-tags/post/class-dynatafo-is-post-in-list.php:7
+msgid "Is Post In List (DTE)"
+msgstr "El Post Esta en la Lista? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-is-singular.php:7
+msgid "Is Singular (DTE)"
+msgstr "Es Singular? (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:7
+msgid "Number Posts Query (DTE)"
+msgstr "Consulta de Numero de Posts (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:15
+#: includes/class-dynatafo-admin.php:850
+msgid "Category"
+msgstr "Categoria"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:27
+msgid "Post Types"
+msgstr "Tipos de Post"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:39
+msgid "Custom Query"
+msgstr "Consulta Personalizada"
+
+#: dynamic-tags/post/class-dynatafo-number-posts-query.php:43
+msgid "One per line, example:"
+msgstr "Uno por linea, ejemplo:"
+
+#: dynamic-tags/post/class-dynatafo-page-title.php:7
+#, fuzzy
+msgid "Page Title (DTE)"
+msgstr "Titulo del Sitio (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-categories.php:7
+msgid "Post Categories List (DTE)"
+msgstr "Lista de Categorias del Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-categories.php:24
+#: dynamic-tags/post/class-dynatafo-post-tags.php:24
+msgid "Include Links"
+msgstr "Incluir Enlace"
+
+#: dynamic-tags/post/class-dynatafo-post-comment-count.php:7
+msgid "Post Comment Count (DTE)"
+msgstr "Numero de Comentarios del Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-content.php:7
+msgid "Post Content (DTE)"
+msgstr "Contenido del Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-content.php:15
+msgid "Without filters"
+msgstr "Sin filtros"
+
+#: dynamic-tags/post/class-dynatafo-post-custom-field.php:7
+#, fuzzy
+msgid "Post Custom Field (DTE)"
+msgstr "Fecha de la Entrada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-custom-field.php:15
+#: dynamic-tags/user/class-dynatafo-user-role.php:26
+msgid "Key"
+msgstr "Clave"
+
+#: dynamic-tags/post/class-dynatafo-post-date.php:7
+msgid "Post Date (DTE)"
+msgstr "Fecha de la Entrada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-excerpt.php:6
+msgid "Post Excerpt (DTE)"
+msgstr "Extracto de la Entrada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-featured-image.php:7
+#, fuzzy
+msgid "Post Featured Image (DTE)"
+msgstr "Imagen Destacada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-gallery.php:7
+#, fuzzy
+msgid "Post Gallery (DTE)"
+msgstr "Fecha de la Entrada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-id.php:7
+#, fuzzy
+msgid "Post ID (DTE)"
+msgstr "Entrada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-modified-date.php:7
+msgid "Post Modified Date (DTE)"
+msgstr "Fecha de Modificacion del Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:7
+msgid "Post Parent (DTE)"
+msgstr "Post Padre (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:21
+msgid "Post Title"
+msgstr "Titulo del Post"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:22
+msgid "Post Name"
+msgstr "Nombre del Post"
+
+#: dynamic-tags/post/class-dynatafo-post-parent.php:36
+msgid "No Parent"
+msgstr "Sin padre"
+
+#: dynamic-tags/post/class-dynatafo-post-status.php:7
+msgid "Post Status (DTE)"
+msgstr "Estado del Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-tags.php:7
+msgid "Post Tags List (DTE)"
+msgstr "Lista de Etiquetas del Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-terms.php:7
+#, fuzzy
+msgid "Post Terms (DTE)"
+msgstr "Tipo de Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-terms.php:20
+msgid "Tags"
+msgstr ""
+
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:7
+msgid "Post Thumbnail URL (DTE)"
+msgstr "URL de la Miniatura del Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-thumbnail-url.php:21
+msgid "Image Object"
+msgstr "Objeto de Imagen"
+
+#: dynamic-tags/post/class-dynatafo-post-time.php:7
+#, fuzzy
+msgid "Post Time (DTE)"
+msgstr "Titulo de la Entrada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-time.php:15
+#, fuzzy
+msgid "Time Format"
+msgstr "Formato de Fecha"
+
+#: dynamic-tags/post/class-dynatafo-post-title.php:11
+msgid "Post Title (DTE)"
+msgstr "Titulo de la Entrada (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:7
+msgid "Post Type (DTE)"
+msgstr "Tipo de Post (DTE)"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:15
+#: dynamic-tags/user/class-dynatafo-user-role.php:46
+#: dynamic-tags/utils/class-dynatafo-current-date-time.php:15
+msgid "Format"
+msgstr "Formato"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:20
+#: dynamic-tags/user/class-dynatafo-user-role.php:51
+msgid "Plain"
+msgstr "Simple"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:21
+msgid "Singular"
+msgstr "Singular"
+
+#: dynamic-tags/post/class-dynatafo-post-type.php:22
+msgid "Plural"
+msgstr "Plural"
+
+#: dynamic-tags/post/class-dynatafo-post-url.php:11
+msgid "Post URL (DTE)"
+msgstr "URL de la Entrada (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-choice.php:9
+#, fuzzy
+msgid "SCF Choice (DTE)"
+msgstr "Sitio (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-date-formatted.php:9
+#, fuzzy
+msgid "SCF Date Picker Formatted (DTE)"
+msgstr "ACF Selector de Fecha Formateado (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-field.php:9
+#, fuzzy
+msgid "SCF Field (DTE)"
+msgstr "Sitio (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-file.php:9
+#, fuzzy
+msgid "SCF File (DTE)"
+msgstr "Sitio (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-gallery-first.php:9
+#, fuzzy
+msgid "SCF Gallery First Image (DTE)"
+msgstr "ACF Primera Imagen de Galeria (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-image-data.php:9
+#, fuzzy
+msgid "SCF Image Data (DTE)"
+msgstr "Imagen Destacada (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-link-attribute.php:9
+#, fuzzy
+msgid "SCF Link Attribute (DTE)"
+msgstr "Titulo del Sitio (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-link-text.php:9
+#, fuzzy
+msgid "SCF Link Text (DTE)"
+msgstr "Titulo del Sitio (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-link-url.php:9
+#, fuzzy
+msgid "SCF Link URL (DTE)"
+msgstr "URL del Sitio (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-relationship-first-title.php:9
+#, fuzzy
+msgid "SCF Relationship First Post Title (DTE)"
+msgstr "ACF Titulo del Primer Post Relacionado (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-repeater.php:9
+#, fuzzy
+msgid "SCF Repeater (DTE)"
+msgstr "ACF Repetidor (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-taxonomy-term.php:9
+#, fuzzy
+msgid "SCF Taxonomy Term Name (DTE)"
+msgstr "ACF Nombre de Termino de Taxonomia (DTE)"
+
+#: dynamic-tags/scf/class-dynatafo-scf-true-false.php:9
+#, fuzzy
+msgid "SCF True/False (DTE)"
+msgstr "Eslogan del Sitio (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-icon.php:7
+msgid "Site Icon (DTE)"
+msgstr "Icono del Sitio (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-logo.php:7
+msgid "Site Logo (DTE)"
+msgstr "Logotipo del Sitio (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-tagline.php:6
+msgid "Site Tagline (DTE)"
+msgstr "Eslogan del Sitio (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-title.php:6
+msgid "Site Title (DTE)"
+msgstr "Titulo del Sitio (DTE)"
+
+#: dynamic-tags/site/class-dynatafo-site-url.php:11
+msgid "Site URL (DTE)"
+msgstr "URL del Sitio (DTE)"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-description.php:7
+msgid "Current Term Description (DTE)"
+msgstr "Descripcion del Termino Actual (DTE)"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-image.php:7
+msgid "Current Term Image (DTE)"
+msgstr "Imagen del Termino Actual (DTE)"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-image.php:15
+msgid "Image Meta Key"
+msgstr "Clave Meta de la Imagen"
+
+#: dynamic-tags/taxonomy/class-dynatafo-current-term-name.php:7
+msgid "Current Term Name (DTE)"
+msgstr "Nombre del Termino Actual (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-can.php:7
+msgid "Current User Can (DTE)"
+msgstr "El Usuario Actual Puede (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-can.php:15
+msgid "Capability"
+msgstr "Capacidad"
+
+#: dynamic-tags/user/class-dynatafo-current-user-display-name.php:7
+msgid "Current User Display Name (DTE)"
+msgstr "Nombre de Visualizacion del Usuario Actual (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-email.php:7
+msgid "Current User Email (DTE)"
+msgstr "Email del Usuario Actual (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-id.php:7
+msgid "Current User ID (DTE)"
+msgstr "ID del Usuario Actual (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-current-user-reg-date.php:7
+msgid "Current User Registration Date (DTE)"
+msgstr "Fecha de Registro del Usuario Actual (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:7
+msgid "User/Author Image URL (DTE)"
+msgstr "URL de Imagen del Usuario/Autor (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:15
+msgid "Author or User"
+msgstr "Autor o Usuario"
+
+#: dynamic-tags/user/class-dynatafo-user-author-image-url.php:20
+msgid "User"
+msgstr "Usuario"
+
+#: dynamic-tags/user/class-dynatafo-user-info.php:7
+#, fuzzy
+msgid "User Info (DTE)"
+msgstr "Rol del Usuario (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-profile-picture.php:7
+#, fuzzy
+msgid "User Profile Picture (DTE)"
+msgstr "Rol del Usuario (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:7
+msgid "User Role (DTE)"
+msgstr "Rol del Usuario (DTE)"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:13
+msgid "Current User"
+msgstr "Usuario Actual"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:14
+msgid "Current Author"
+msgstr "Autor Actual"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:52
+msgid "Human readable"
+msgstr "Legible por humanos"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:53
+msgid "Translated"
+msgstr "Traducido"
+
+#: dynamic-tags/user/class-dynatafo-user-role.php:61
+msgid "Add wrapper around items"
+msgstr "Agregar contenedor alrededor de los elementos"
+
+#: dynamic-tags/utils/class-dynatafo-cookies.php:7
+msgid "Cookies (DTE)"
+msgstr "Cookies (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-cookies.php:15
+msgid "Cookie Name"
+msgstr "Nombre de la Cookie"
+
+#: dynamic-tags/utils/class-dynatafo-cookies.php:26
+msgid "Custom Cookie Name"
+msgstr "Nombre de Cookie Personalizado"
+
+#: dynamic-tags/utils/class-dynatafo-current-date-time.php:7
+#, fuzzy
+msgid "Current Date Time (DTE)"
+msgstr "Nombre del Termino Actual (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-current-language.php:11
+msgid "Current Language (DTE)"
+msgstr "Idioma Actual (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-query-param.php:7
+msgid "Query String Parameter (DTE)"
+msgstr "Parametro de Cadena de Consulta (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-query-param.php:15
+msgid "Parameter Key"
+msgstr "Clave del Parametro"
+
+#: dynamic-tags/utils/class-dynatafo-query-param.php:19
+msgid "Example: ref, utm_source, category"
+msgstr "Ejemplo: ref, utm_source, category"
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:7
+#, fuzzy
+msgid "Request Parameter (DTE)"
+msgstr "Parametro de Cadena de Consulta (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:19
+msgid "Get"
+msgstr ""
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:20
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:17
+msgid "Post"
+msgstr "Entrada"
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:21
+msgid "Query Var"
+msgstr ""
+
+#: dynamic-tags/utils/class-dynatafo-request-parameter.php:29
+#, fuzzy
+msgid "Parameter Name"
+msgstr "Clave del Parametro"
+
+#: dynamic-tags/utils/class-dynatafo-server-vars.php:7
+msgid "Server Variables (DTE)"
+msgstr "Variables del Servidor (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-server-vars.php:26
+msgid "Variable"
+msgstr "Variable"
+
+#: dynamic-tags/utils/class-dynatafo-session.php:7
+msgid "Session (DTE)"
+msgstr "Sesion (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-session.php:15
+msgid "Session Key"
+msgstr "Clave de Sesion"
+
+#: dynamic-tags/utils/class-dynatafo-session.php:25
+msgid "Custom Session Key"
+msgstr "Clave de Sesion Personalizada"
+
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:7
+msgid "Widget Content (DTE)"
+msgstr "Contenido del Widget (DTE)"
+
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:29
+msgid "Post ID"
+msgstr "ID del Post"
+
+#: dynamic-tags/utils/class-dynatafo-widget-content.php:39
+msgid "Widget ID"
+msgstr "ID del Widget"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-add-to-cart-url.php:7
+msgid "Product Add To Cart URL (DTE)"
+msgstr "URL de Anadir al Carrito (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-product-categories.php:7
+msgid "Product Categories (DTE)"
+msgstr "Categorias del Producto (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-product-price.php:7
+msgid "Product Price (DTE)"
+msgstr "Precio del Producto (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-rating.php:7
+msgid "Product Rating (DTE)"
+msgstr "Valoracion del Producto (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-sale-price.php:7
+msgid "Product Sale Price (DTE)"
+msgstr "Precio de Oferta del Producto (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-sku.php:7
+msgid "Product SKU (DTE)"
+msgstr "SKU del Producto (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-stock-status.php:7
+msgid "Product Stock Status (DTE)"
+msgstr "Estado de Stock del Producto (DTE)"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-stock-status.php:23
+msgid "In stock"
+msgstr "En stock"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woo-stock-status.php:24
+msgid "Out of stock"
+msgstr "Sin stock"
+
+#: dynamic-tags/woocommerce/class-dynatafo-woocommerce-is-featured.php:7
+msgid "WooCommerce Is Featured Product (DTE)"
+msgstr "WooCommerce Es Producto Destacado? (DTE)"
+
+#: includes/class-dynatafo-admin-notice-manager.php:188
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-dynatafo-admin-notice-manager.php:290
+msgid "Forbidden"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:65 includes/class-dynatafo-admin.php:66
+msgid "Dynamic Tags"
+msgstr "Etiquetas Dinamicas"
+
+#: includes/class-dynatafo-admin.php:76 includes/class-dynatafo-admin.php:77
+#: includes/class-dynatafo-admin.php:161 includes/class-dynatafo-admin.php:184
+msgid "Tag Directory"
+msgstr "Directorio de Etiquetas"
+
+#: includes/class-dynatafo-admin.php:85 includes/class-dynatafo-admin.php:86
+#: includes/class-dynatafo-admin.php:199
+msgid "Other Plugins"
+msgstr "Otros Plugins"
+
+#: includes/class-dynatafo-admin.php:94 includes/class-dynatafo-admin.php:95
+#: includes/class-dynatafo-admin.php:266
+msgid "Settings"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:119
+msgid "Dynamic Tags for Elementor Icon"
+msgstr "Icono de Dynamic Tags for Elementor"
+
+#: includes/class-dynatafo-admin.php:120
+msgid "Welcome to Dynamic Tags for Elementor!"
+msgstr "Bienvenido a Dynamic Tags for Elementor!"
+
+#: includes/class-dynatafo-admin.php:123
+msgid "Dynamic Tags for Elementor Banner"
+msgstr "Banner de Dynamic Tags for Elementor"
+
+#: includes/class-dynatafo-admin.php:124
+msgid ""
+"Congratulations! You have successfully enabled dynamic content for Elementor "
+"Free."
+msgstr ""
+"Felicidades. Has activado correctamente el contenido dinamico para Elementor "
+"Free."
+
+#: includes/class-dynatafo-admin.php:131
+msgid "Quick Start"
+msgstr "Inicio Rapido"
+
+#: includes/class-dynatafo-admin.php:133
+msgid "Edit any Elementor widget field that supports Dynamic Tags."
+msgstr "Edita cualquier campo de widget de Elementor que admita Dynamic Tags."
+
+#: includes/class-dynatafo-admin.php:134
+msgid "Click the Dynamic Tags icon next to the field."
+msgstr "Haz clic en el icono de Dynamic Tags junto al campo."
+
+#: includes/class-dynatafo-admin.php:135
+msgid "Pick a tag from the DTE groups and configure options if available."
+msgstr ""
+"Elige una etiqueta de los grupos DTE y configura opciones si estan "
+"disponibles."
+
+#: includes/class-dynatafo-admin.php:140
+msgid "Dependency Status"
+msgstr "Estado de Dependencias"
+
+#: includes/class-dynatafo-admin.php:142
+msgid "Elementor Pro:"
+msgstr "Elementor Pro:"
+
+#: includes/class-dynatafo-admin.php:143 includes/class-dynatafo-admin.php:147
+#: includes/class-dynatafo-admin.php:151
+msgid "Detected"
+msgstr "Detectado"
+
+#: includes/class-dynatafo-admin.php:143 includes/class-dynatafo-admin.php:147
+#: includes/class-dynatafo-admin.php:151
+msgid "Not Detected"
+msgstr "No Detectado"
+
+#: includes/class-dynatafo-admin.php:146
+msgid "Advanced Custom Fields (ACF):"
+msgstr "Advanced Custom Fields (ACF):"
+
+#: includes/class-dynatafo-admin.php:150
+msgid "WooCommerce:"
+msgstr "WooCommerce:"
+
+#: includes/class-dynatafo-admin.php:162
+msgid ""
+"Use this as a quick reference for available dynamic tags and where to use "
+"them."
+msgstr ""
+"Usa esto como referencia rapida de las etiquetas dinamicas disponibles y "
+"donde usarlas."
+
+#: includes/class-dynatafo-admin.php:167
+msgid "System Status (Logged on Activation)"
+msgstr "Estado del Sistema (Registrado al Activar)"
+
+#: includes/class-dynatafo-admin.php:200
+msgid ""
+"Discover other plugins from the same author and install them in one click."
+msgstr "Descubre otros plugins del mismo autor e instalalos con un clic."
+
+#: includes/class-dynatafo-admin.php:204
+msgid ""
+"No plugins found in the list. Add plugin entries in includes/other-"
+"plugins.json."
+msgstr ""
+"No se encontraron plugins en la lista. Agrega entradas en includes/other-"
+"plugins.json."
+
+#: includes/class-dynatafo-admin.php:224
+msgid "By"
+msgstr "Por"
+
+#: includes/class-dynatafo-admin.php:235
+msgid "More Details"
+msgstr "Mas Detalles"
+
+#: includes/class-dynatafo-admin.php:246
+msgid "Last Updated:"
+msgstr "Ultima Actualizacion:"
+
+#: includes/class-dynatafo-admin.php:271
+msgid "Plugin Version Management"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:272
+#, fuzzy
+msgid "Current Version:"
+msgstr "Usuario Actual"
+
+#: includes/class-dynatafo-admin.php:282
+msgid "Select Version"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:286
+msgid "-- Choose a version to rollback --"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:291
+#, fuzzy
+msgid "Current"
+msgstr "Usuario Actual"
+
+#: includes/class-dynatafo-admin.php:298
+msgid "Select a version to rollback to. Click \"Apply Version\" to proceed."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:304
+msgid "No previous versions available for rollback."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:314
+msgid "Apply Version"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:331
+msgid "Please select a version first."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:335
+msgid "Are you sure you want to rollback to version"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:343
+msgid "Processing rollback..."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:355
+msgid "Rollback successful! Reloading page..."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:362
+msgid "Rollback failed:"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:399
+msgid "See changelog"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:415
+msgid "Security check failed"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:419
+msgid "Insufficient permissions"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:426
+msgid "Invalid version format"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:436
+#, fuzzy
+msgid "Rollback completed successfully"
+msgstr "Etiqueta eliminada correctamente!"
+
+#. translators: Version being rolled back to
+#: includes/class-dynatafo-admin.php:458
+#, php-format
+msgid "Successfully prepared rollback to version %s"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:557
+msgid "Get the Pro version of this plugin to unlock premium features."
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:558
+msgid "Install this plugin from wordpress.org plugin directory."
+msgstr "Instala este plugin desde el directorio de plugins de wordpress.org."
+
+#: includes/class-dynatafo-admin.php:572
+msgid "N/A"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:574
+msgid "Rating: N/A"
+msgstr "Valoracion: N/D"
+
+#. translators: 1: Plugin rating out of 5, 2: Number of ratings.
+#: includes/class-dynatafo-admin.php:579
+#, php-format
+msgid "Rating: %1$s/5 (%2$s)"
+msgstr "Valoracion: %1$s/5 (%2$s)"
+
+#: includes/class-dynatafo-admin.php:584
+msgid "Premium Plugin"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:587
+msgid "Active Installs: N/A"
+msgstr "Instalaciones Activas: N/D"
+
+#. translators: %s: Number of active installs.
+#: includes/class-dynatafo-admin.php:592
+#, php-format
+msgid "Active Installs: %s+"
+msgstr "Instalaciones Activas: %s+"
+
+#: includes/class-dynatafo-admin.php:594
+msgid "Active Installs: Less than 10"
+msgstr "Instalaciones Activas: Menos de 10"
+
+#: includes/class-dynatafo-admin.php:597
+msgid "Freemius Pro"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:696 includes/class-dynatafo-admin.php:709
+msgid "Installed"
+msgstr "Instalado"
+
+#: includes/class-dynatafo-admin.php:706
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/class-dynatafo-admin.php:713
+msgid "Get Pro"
+msgstr ""
+
+#: includes/class-dynatafo-admin.php:722
+msgid "Install Now"
+msgstr "Instalar Ahora"
+
+#: includes/class-dynatafo-admin.php:725
+msgid "Not Allowed"
+msgstr "No Permitido"
+
+#: includes/class-dynatafo-admin.php:795
+msgid "No tag directory data is available right now."
+msgstr "No hay datos del directorio de etiquetas disponibles ahora mismo."
+
+#. translators: %d: Number of dynamic tags.
+#: includes/class-dynatafo-admin.php:806
+#, php-format
+msgid "%d Dynamic Tags"
+msgstr "%d Etiquetas Dinamicas"
+
+#. translators: %d: Number of tag categories.
+#: includes/class-dynatafo-admin.php:812
+#, php-format
+msgid "%d Categories"
+msgstr "%d Categorias"
+
+#: includes/class-dynatafo-admin.php:816
+msgid "Works with Elementor Free"
+msgstr "Funciona con Elementor Free"
+
+#: includes/class-dynatafo-admin.php:827
+msgid "Search tags... (or press / to focus)"
+msgstr "Buscar etiquetas... (o pulsa / para enfocar)"
+
+#: includes/class-dynatafo-admin.php:832
+msgid "Tag categories"
+msgstr "Categorias de etiquetas"
+
+#: includes/class-dynatafo-admin.php:834
+msgid "All"
+msgstr "Todas"
+
+#: includes/class-dynatafo-admin.php:849
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: includes/class-dynatafo-admin.php:851
+msgid "Field Type"
+msgstr "Tipo de Campo"
+
+#: includes/class-dynatafo-admin.php:852
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/class-dynatafo-admin.php:853
+msgid "Notes"
+msgstr "Notas"
+
+#: includes/class-dynatafo-admin.php:876
+msgid "No tags match your search/filter."
+msgstr "Ninguna etiqueta coincide con tu busqueda/filtro."
+
+#: includes/class-dynatafo-admin.php:932
+msgid "Tag directory JSON was not found and no cached fallback is available."
+msgstr ""
+"No se encontro el JSON del directorio de etiquetas y no hay respaldo en "
+"cache."
+
+#: includes/class-dynatafo-admin.php:941
+msgid "Tag directory JSON is invalid and no cached fallback is available."
+msgstr ""
+"El JSON del directorio de etiquetas es invalido y no hay respaldo en cache."
+
+#: includes/class-dynatafo-admin.php:1002
+msgid ""
+"Tag directory JSON has no usable tag entries and no cached fallback is "
+"available."
+msgstr ""
+"El JSON del directorio de etiquetas no tiene entradas utilizables y no hay "
+"respaldo en cache."
+
+#: includes/class-dynatafo-loader.php:114
+msgid "Post (DTE)"
+msgstr "Entrada (DTE)"
+
+#: includes/class-dynatafo-loader.php:115
+msgid "Archive (DTE)"
+msgstr "Archivo (DTE)"
+
+#: includes/class-dynatafo-loader.php:116
+msgid "Site (DTE)"
+msgstr "Sitio (DTE)"
+
+#: includes/class-dynatafo-loader.php:117
+msgid "Media (DTE)"
+msgstr "Medios (DTE)"
+
+#: includes/class-dynatafo-loader.php:118
+msgid "Author (DTE)"
+msgstr "Autor (DTE)"
+
+#: includes/class-dynatafo-loader.php:119
+#, fuzzy
+msgid "Comments (DTE)"
+msgstr "Cookies (DTE)"
+
+#: includes/class-dynatafo-loader.php:120
+msgid "Taxonomy (DTE)"
+msgstr "Taxonomia (DTE)"
+
+#: includes/class-dynatafo-loader.php:124
+#, fuzzy
+msgid "Actions (DTE)"
+msgstr "Autor (DTE)"
+
+#: includes/class-dynatafo-loader.php:128
+msgid "ACF (DTE)"
+msgstr "ACF (DTE)"
+
+#: includes/class-dynatafo-loader.php:132
+#, fuzzy
+msgid "SCF (DTE)"
+msgstr "ACF (DTE)"
+
+#: includes/class-dynatafo-loader.php:136
+msgid "WooCommerce (DTE)"
+msgstr "WooCommerce (DTE)"
+
+#: includes/functions.php:7
+msgid "Info"
+msgstr "Informacion"
+
+#: includes/notices/pro-released-notice.php:11
+#, fuzzy
+msgid "Dynamic Tags for Elementor Pro Release Spotlight"
+msgstr "Banner de Dynamic Tags for Elementor"
+
+#: includes/notices/pro-released-notice.php:18
+#, fuzzy
+msgid "Dynamic Tags for Elementor Pro is Now Available!"
+msgstr "Banner de Dynamic Tags for Elementor"
+
+#: includes/notices/pro-released-notice.php:20
+msgid ""
+"Take your Elementor designs to the next level. The Pro version is officially "
+"released and ready! Get access to all premium WooCommerce, ACF Pro, and SCF "
+"Pro dynamic tags with priority support."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:23
+#, fuzzy
+msgid "WooCommerce Pro Tags"
+msgstr "WooCommerce (DTE)"
+
+#: includes/notices/pro-released-notice.php:23
+msgid "Add-to-cart, SKU, rating, prices, galleries, and custom product fields."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:24
+msgid "ACF & SCF Pro Tags"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:24
+msgid "Repeater, Gallery, Relationship, Google Map, Date Time, and more."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:25
+msgid "Priority Email Support"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:25
+msgid "Get direct email assistance from our dedicated core team."
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:29
+msgid "GOLD PLAN"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:30
+msgid "Save up to 12% on Yearly Pricing!"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:32
+msgid "Normally $3.12 / mo"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:34
+msgid "/ mo"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:36
+msgid "Billed Annually ($33 / Year)"
+msgstr ""
+
+#: includes/notices/pro-released-notice.php:37
+msgid "Upgrade Now"
+msgstr ""
+
+#. translators: %s: Plugin version number
+#: includes/notices/version-updated-notice.php:13
+#, fuzzy, php-format
+msgid "Dynamic Tags for Elementor %s is live now"
+msgstr "Icono de Dynamic Tags for Elementor"
+
+#. translators: %s: Plugin version number
+#: includes/notices/version-updated-notice.php:18
+#, php-format
+msgid "Version %s has been released successfully."
+msgstr ""
+
+#. translators: %s: Plugin version number
+#: includes/notices/whats-new-notice.php:13
+#, php-format
+msgid "What's New in v%s"
+msgstr ""
+
+#. translators: %s: Plugin version number
+#: includes/notices/whats-new-notice.php:18
+#, php-format
+msgid "What’s new in v%s"
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:26
+msgid "Updated administrative interface and layout rendering."
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:27
+msgid "Applied security patches and hardened admin data validation."
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:32
+msgid ""
+"Tested and verified compatibility with the latest versions of Elementor and "
+"Elementor Pro."
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:36
+msgid "All changes are fully backward compatible!"
+msgstr ""
+
+#: includes/notices/whats-new-notice.php:37
+msgid "Thank you for using Dynamic Tags for Elementor — enjoy the update."
+msgstr ""
+
+#~ msgid "Unknown"
+#~ msgstr "Desconocido"
+
+#~ msgid "Tag directory JSON was not found. Showing cached tag data."
+#~ msgstr ""
+#~ "No se encontro el JSON del directorio de etiquetas. Mostrando datos en "
+#~ "cache."
+
+#~ msgid "Tag directory JSON is invalid. Showing cached tag data."
+#~ msgstr ""
+#~ "El JSON del directorio de etiquetas es invalido. Mostrando datos en cache."
+
+#~ msgid ""
+#~ "Tag directory JSON has no usable tag entries. Showing cached tag data."
+#~ msgstr ""
+#~ "El JSON del directorio de etiquetas no tiene entradas utilizables. "
+#~ "Mostrando datos en cache."
+
+#~ msgid "Manage Tags"
+#~ msgstr "Gestionar Etiquetas"
+
+#~ msgid "Welcome to Dynamic Tags!"
+#~ msgstr "Bienvenido a Etiquetas Dinamicas!"
+
+#~ msgid "You have successfully enabled dynamic content for Elementor Free."
+#~ msgstr ""
+#~ "Has habilitado correctamente el contenido dinamico para Elementor Free."
+
+#~ msgid "Create Your First Custom Tag"
+#~ msgstr "Crea Tu Primera Etiqueta Personalizada"
+
+#~ msgid "Manage Custom Tags"
+#~ msgstr "Gestionar Etiquetas Personalizadas"
+
+#~ msgid "Tag added successfully!"
+#~ msgstr "Etiqueta agregada correctamente!"
+
+#~ msgid "Add New Dynamic Tag"
+#~ msgstr "Agregar Nueva Etiqueta Dinamica"
+
+#~ msgid "Tag Label"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Tag Output Value"
+#~ msgstr "Valor de Salida de la Etiqueta"
+
+#~ msgid "Existing Custom Tags"
+#~ msgstr "Etiquetas Personalizadas Existentes"
+
+#~ msgid "Label"
+#~ msgstr "Etiqueta"
+
+#~ msgid "No custom tags created yet."
+#~ msgstr "Aun no se han creado etiquetas personalizadas."
+
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#~ msgid "Custom Dynamic Tags"
+#~ msgstr "Etiquetas Dinamicas Personalizadas"

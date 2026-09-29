@@ -1,0 +1,16 @@
+.git
+.github
+.gitignore
+.wordpress-org
+tests
+node_modules
+composer.json
+composer.lock
+clean-and-build.sh
+todo-list.txt
+suggestion.txt
+tags-list.txt
+tag-list.txt
+phpunit.xml*
+vendor
+bin

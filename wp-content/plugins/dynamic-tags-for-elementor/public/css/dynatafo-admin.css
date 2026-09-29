@@ -1,0 +1,548 @@
+.dynatafo-admin-wrap {
+	max-width: none;
+}
+
+.dynatafo-card {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	padding: 16px 20px;
+	margin-top: 16px;
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.dynatafo-card-narrow {
+	max-width: 980px;
+}
+
+.dynatafo-hero-card {
+	margin-top: 12px;
+	padding: 16px 20px 20px;
+}
+
+.dynatafo-hero-head {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin-bottom: 12px;
+}
+
+.dynatafo-hero-icon {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+	flex: 0 0 80px;
+}
+
+.dynatafo-hero-head h2 {
+	margin: 0;
+	font-size: 28px;
+	line-height: 1.2;
+}
+
+.dynatafo-hero-banner {
+	position: relative;
+	margin: 0;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.dynatafo-hero-banner img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.dynatafo-hero-message {
+	position: absolute;
+	left: 16px;
+	bottom: 12px;
+	margin: 0;
+	padding: 8px 10px;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.88);
+	max-width: calc(100% - 32px);
+}
+
+.dynatafo-info-grid {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	align-items: stretch;
+}
+
+.dynatafo-info-grid-spaced {
+	margin-top: 16px;
+}
+
+.dynatafo-info-grid .dynatafo-card {
+	box-sizing: border-box;
+	flex: 1 1 calc(50% - 8px);
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.dynatafo-quickstart-list {
+	margin-left: 18px;
+}
+
+.dynatafo-tag-directory-page-card {
+	padding-top: 18px;
+}
+
+.dynatafo-tag-overview {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	margin-bottom: 14px;
+}
+
+.dynatafo-overview-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 12px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+	background: #f2f3f5;
+	color: #2f3640;
+	border: 1px solid #e4e6ea;
+}
+
+.dynatafo-overview-primary {
+	background: #efeaff;
+	color: #5f3dc4;
+	border-color: #ddd3ff;
+}
+
+.dynatafo-overview-success {
+	background: #ecfff2;
+	color: #1f7a3f;
+	border-color: #caefd7;
+}
+
+.dynatafo-tag-directory {
+	background: #f7f7fb;
+	border: 1px solid #e2e4ea;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.dynatafo-tag-search-wrap {
+	position: relative;
+	padding: 14px;
+	background: #f2f1fb;
+	border-bottom: 1px solid #e3e2ef;
+}
+
+.dynatafo-tag-search-icon {
+	position: absolute;
+	left: 28px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #6a6f7b;
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+	pointer-events: none;
+}
+
+.dynatafo-tag-filter-input {
+	width: 100%;
+	max-width: none;
+	height: 48px;
+	padding: 10px 14px 10px 52px !important; 
+	border: 1px solid #cbcdd4;
+	border-radius: 8px;
+	background: #fff;
+	line-height: 1.3;
+	font-size: 14px;
+	color: #2c3338;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.dynatafo-tag-filter-input::placeholder {
+	color: #646970;
+}
+
+.dynatafo-tag-filter-input:focus {
+	border-color: #8a6de0;
+	box-shadow: 0 0 0 1px #8a6de0;
+	outline: 0;
+}
+
+.dynatafo-tag-filter-input::-webkit-search-cancel-button,
+.dynatafo-tag-filter-input::-webkit-search-decoration,
+.dynatafo-tag-filter-input::-webkit-search-results-button,
+.dynatafo-tag-filter-input::-webkit-search-results-decoration {
+	-webkit-appearance: none;
+	appearance: none;
+	display: none;
+}
+
+.dynatafo-tag-chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 10px 14px;
+	background: #fff;
+	border-bottom: 1px solid #ececf2;
+}
+
+.dynatafo-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	padding: 4px 12px;
+	height: 28px;
+	border-radius: 999px;
+	border: 1px solid #e2e4ea;
+	background: #fff;
+	color: #3e4450;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.dynatafo-chip:hover {
+	border-color: #b8bcd0;
+}
+
+.dynatafo-chip.is-active {
+	background: #6c4fd6;
+	color: #fff;
+	border-color: #6c4fd6;
+}
+
+.dynatafo-chip-count {
+	padding: 1px 7px;
+	border-radius: 999px;
+	font-size: 11px;
+	line-height: 1.3;
+	background: #f1f2f6;
+	color: #333a45;
+}
+
+.dynatafo-chip.is-active .dynatafo-chip-count {
+	background: rgba(255, 255, 255, 0.24);
+	color: #fff;
+}
+
+.dynatafo-tag-table-wrap {
+	overflow-x: auto;
+	background: #fff;
+}
+
+.dynatafo-tag-table-modern {
+	border: 0;
+	margin: 0;
+}
+
+.dynatafo-tag-table-modern thead th {
+	background: #f7f8fc;
+	color: #6253a8;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ececf2;
+}
+
+.dynatafo-tag-table-modern tbody td {
+	vertical-align: middle;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.dynatafo-tag-table-modern code {
+	padding: 3px 8px;
+	border-radius: 6px;
+	background: #f1efff;
+	color: #5f3dc4;
+	font-size: 12px;
+}
+
+.dynatafo-tag-title {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: 600;
+	color: #1f2328;
+}
+
+.dynatafo-tag-category-pill,
+.dynatafo-tag-field-pill {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 9px;
+	border-radius: 999px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+.dynatafo-tag-category-pill {
+	background: #f2f0ff;
+	color: #5f3dc4;
+}
+
+.dynatafo-tag-field-pill {
+	background: #eef3ff;
+	color: #2e5aac;
+}
+
+.dynatafo-tag-filter-empty {
+	display: none;
+	padding: 14px;
+	margin: 0;
+	background: #fff;
+	border-top: 1px solid #ececf2;
+}
+
+.dynatafo-inline-notice {
+	margin: 0 0 12px;
+}
+
+.dynatafo-market-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+	gap: 18px;
+	align-items: stretch;
+}
+
+.dynatafo-market-grid-wide {
+	max-width: 1600px;
+}
+
+.dynatafo-market-card {
+	background: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+	transition: all 0.3s ease;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-height: 290px;
+}
+
+.dynatafo-market-card:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+	border-color: #d0d5df;
+	transform: translateY(-2px);
+}
+
+.dynatafo-market-head {
+	display: flex;
+	gap: 12px;
+	padding: 14px;
+	padding-bottom: 8px;
+	align-items: start;
+	flex: 1;
+}
+
+.dynatafo-market-icon {
+	width: 56px;
+	height: 56px;
+	border-radius: 6px;
+	object-fit: cover;
+	flex: 0 0 56px;
+}
+
+.dynatafo-market-content {
+	min-width: 0;
+	flex: 1;
+	display: flex;
+	min-height: 0;
+}
+
+.dynatafo-rows {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	flex: 1;
+}
+
+.dynatafo-market-content h2 {
+	margin: 0 0 6px;
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 600;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #1f2937;
+}
+
+.dynatafo-market-desc {
+	margin: 0;
+	color: #6b7280;
+	font-size: 13px;
+	flex-grow: 1;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.dynatafo-market-author {
+	margin: auto 0 0;
+	color: #9ca3af;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.dynatafo-market-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: auto;
+	padding: 0 14px 12px;
+	align-items: stretch;
+	border-bottom: 1px solid #f3f4f6;
+}
+
+.dynatafo-market-actions .button {
+	flex: 1;
+	min-width: 100px;
+	text-align: center;
+	padding: 8px 12px !important;
+	font-size: 12px !important;
+	height: auto;
+}
+
+.dynatafo-market-actions .button:first-child {
+	min-width: 110px;
+}
+
+.dynatafo-market-foot {
+	padding: 12px 14px;
+	background: #f9fafb;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px;
+	color: #4b5563;
+	font-size: 12px;
+	border-top: 1px solid #f3f4f6;
+}
+
+.dynatafo-market-foot strong {
+	font-weight: 600;
+	color: #1f2937;
+}
+
+@media (max-width: 960px) {
+	.dynatafo-market-grid {
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+}
+
+@media (max-width: 900px) {
+	.dynatafo-info-grid .dynatafo-card {
+		flex-basis: 100%;
+	}
+
+	.dynatafo-hero-head h2 {
+		font-size: 24px;
+	}
+
+	.dynatafo-tag-table-modern {
+		min-width: 840px;
+	}
+}
+
+@media (max-width: 680px) {
+	.dynatafo-market-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.dynatafo-market-head {
+		flex-direction: row;
+		gap: 10px;
+		padding: 12px;
+	}
+
+	.dynatafo-market-icon {
+		width: 48px;
+		height: 48px;
+		flex: 0 0 48px;
+	}
+
+	.dynatafo-market-content h2 {
+		font-size: 14px;
+		margin: 0 0 4px;
+	}
+
+	.dynatafo-market-desc {
+		font-size: 12px;
+		-webkit-line-clamp: 2;
+	}
+}
+/* Pro Badge Styles */
+.dynatafo-pro-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #5b6ee1 0%, #6a4cc7 100%);
+	color: #fff;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 1;
+	padding: 2px 6px;
+	border-radius: 999px;
+	margin-left: 0;
+	margin-top: -16px;
+	vertical-align: baseline;
+	text-transform: uppercase;
+	letter-spacing: 0.35px;
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.dynatafo-tag-pro {
+	background: #f9f5ff;
+}
+
+.dynatafo-tag-pro .dynatafo-tag-category-pill {
+	opacity: 0.7;
+}
+
+.dynatafo-license-btn.is-active {
+	background: #fff !important;
+	color: #6c4fd6 !important;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dynatafo-license-filter {
+	display: inline-flex;
+	background: #efeef7;
+	padding: 4px;
+	border-radius: 8px;
+	border: 1px solid #e1e0ef;
+}
+
+.dynatafo-license-btn {
+	background: transparent;
+	border: 0;
+	padding: 6px 12px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #6a6f7b;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	outline: none;
+	border-style: none;
+	box-shadow: none;
+}
+
+.dynatafo-license-btn:hover {
+	color: #4f3bb0;
+}

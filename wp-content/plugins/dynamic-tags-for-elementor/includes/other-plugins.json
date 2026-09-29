@@ -1,0 +1,40 @@
+{
+  "plugins": [
+    {
+      "name": "Dynamic Tags for Elementor Pro",
+      "slug": "dynamic-tags-for-elementor-pro",
+      "description": "Premium version of Dynamic Tags for Elementor. Unlock powerful features like ACF relationships, WooCommerce checkout info, custom user queries, and advanced layout integrations via Freemius.",
+      "is_pro": true,
+      "details_url": "https://www.manfii.com/products/dynamic-tags-for-elementor-pro",
+      "buy_url": "https://checkout.freemius.com/plugin/30398/plan/49913/",
+      "icon": "https://ps.w.org/dynamic-tags-for-elementor/assets/icon.svg?rev=3477460",
+      "sync_update_with": "dynamic-tags-for-elementor"
+    },
+    {
+      "name": "Magic Copy for Elementor",
+      "slug": "magic-copy-for-elementor",
+      "description": "Magic Copy for Elementor is a powerful productivity tool that allows you to copy any Elementor element (Widget, Column, Section, or Container) from your website’s frontend and paste it directly into the Elementor editor of any other website."
+    },
+    {
+      "name": "Magic Copy for Elementor Pro",
+      "slug": "magic-copy-for-elementor-pro",
+      "description": "Unlock Personal and Team Cloud Clipboard, Direct Cross-Site Push, White-Labeling, Unlimited Snapshots, and Granular Role Access Controls.",
+      "is_pro": true,
+      "details_url": "https://www.manfii.com/products/magic-copy-for-elementor-pro",
+      "buy_url": "https://checkout.freemius.com/plugin/34876/plan/57335/",
+      "buy_url_business": "https://checkout.freemius.com/plugin/34876/plan/57336/",
+      "icon": "https://ps.w.org/magic-copy-for-elementor/assets/icon-256x256.jpg?rev=3487660",
+      "sync_update_with": "magic-copy-for-elementor"
+    },
+    {
+      "name": "Manfi Expense Tracker",
+      "slug": "manfi-expense-tracker",
+      "description": "A complete bookkeeping, invoicing, and budget management solution powered by React. Track expenses, manage clients/vendors, link bank accounts, and generate professional invoice PDFs."
+    },
+    {
+      "name": "Manfi FormFlow Engine",
+      "slug": "manfi-formflow-engine",
+      "description": "Manfi FormFlow Engine is a powerful and flexible visual form builder plugin that helps you create and manage custom forms in WordPress without any coding knowledge. Whether you need a simple contact form or a complex multi-step survey, Manfi FormFlow Engine gives you a robust step-based builder experience inside your WordPress admin dashboard. You can create forms, manage submissions, and embed them anywhere using a simple shortcode."
+    }
+  ]
+}
